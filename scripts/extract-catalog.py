@@ -35,8 +35,9 @@ FRAME_SIZES = {(522, 930), (447, 797), (521, 930), (671, 1196)}
 RING_SIDES = {259, 260, 263, 264, 287}
 INFO_PAGES = {1, 2}                # portada y proceso de compra: sin productos, pero se muestran en la vista catálogo
 SKIP_PAGES = {121}                 # contraportada vacía
-CROP_DPI = 300                     # resolución del recorte (la foto original es menor: no se pierde calidad)
-PHOTO_SIZES = (320, 640)
+# Las fotos se recortan a su resolución nativa dentro del PDF (sin ampliar ni reducir dos veces).
+MIN_DPI, MAX_DPI = 96, 300
+RING_INNER = 0.92                  # el anillo cobrizo ocupa el 6,4 % exterior del radio (+ margen para su borde suavizado); la web lo dibuja en CSS
 GALLERY_WIDTH = 720
 PAGE_WIDTH = 900
 
@@ -142,13 +143,25 @@ def parse_card(spans):
     return join_lines(name_lines), prices, desc_lines, labels
 
 
-def circle_crop(page, rect):
-    pix = page.get_pixmap(clip=rect, dpi=CROP_DPI)
+def native_dpi(images, rect, decor):
+    """Resolución real (px por pulgada) de las fotos colocadas dentro de rect."""
+    dpis = [im['width'] / (im['bbox'][2] - im['bbox'][0]) * 72 for im in images
+            if im['xref'] and (im['width'], im['height']) not in decor
+            and inside(center(im['bbox']), rect) and im['bbox'][2] > im['bbox'][0]]
+    return round(min(MAX_DPI, max([MIN_DPI] + dpis)))
+
+
+def circle_crop(page, rect, dpi):
+    """Disco interior del círculo (foto + fondo beige), sin el anillo: la web dibuja el anillo
+    en vector para que se vea nítido a cualquier tamaño."""
+    pix = page.get_pixmap(clip=rect, dpi=dpi)
     img = Image.open(io.BytesIO(pix.tobytes('png'))).convert('RGBA')
     side = min(img.size)
     img = img.crop((0, 0, side, side))
-    mask = Image.new('L', (side * 4, side * 4), 0)
-    ImageDraw.Draw(mask).ellipse((0, 0, side * 4 - 1, side * 4 - 1), fill=255)
+    inset = side * (1 - RING_INNER) / 2
+    big = side * 4
+    mask = Image.new('L', (big, big), 0)
+    ImageDraw.Draw(mask).ellipse((inset * 4, inset * 4, big - 1 - inset * 4, big - 1 - inset * 4), fill=255)
     img.putalpha(mask.resize((side, side), Image.LANCZOS))
     return img
 
@@ -157,7 +170,7 @@ def save_webp(img, path, width):
     path.parent.mkdir(parents=True, exist_ok=True)
     if img.width > width:
         img = img.resize((width, round(img.height * width / img.width)), Image.LANCZOS)
-    img.save(path, 'WEBP', quality=82, method=6)
+    img.save(path, 'WEBP', quality=92, method=6)   # calidad alta: las fotos de origen ya vienen comprimidas
     return img.size
 
 
@@ -282,12 +295,10 @@ def main():
                 product['details'] = {LABEL_TITLES.get(pno, 'Etiquetas'): ', '.join(labels)}
 
             if ring:
-                img = circle_crop(page, ring + (-1, -1, 1, 1))
-                for w in PHOTO_SIZES:
-                    save_webp(img, OUT_PRODUCTS / f'{pid}-{w}.webp', w)
-                product['imageSmall'] = f'assets/images/productos/{pid}-{PHOTO_SIZES[0]}.webp'
-                product['image'] = f'assets/images/productos/{pid}-{PHOTO_SIZES[1]}.webp'
-                product['imageWidth'] = product['imageHeight'] = PHOTO_SIZES[1]
+                img = circle_crop(page, ring, native_dpi(images, ring, decor_sizes(doc)))
+                iw, ih = save_webp(img, OUT_PRODUCTS / f'{pid}.webp', img.width)
+                product['image'] = f'assets/images/productos/{pid}.webp'
+                product['imageWidth'], product['imageHeight'] = iw, ih
                 product['imageAlt'] = f'{name} de {brand}, fotografía del catálogo'
 
                 # Fotos de tonos / variantes: imágenes de la tarjeta fuera del círculo.
@@ -303,7 +314,7 @@ def main():
                         union |= r
                     union = gallery_bounds(union, fb, fspans, images)
                 if extra and union.height > 30:
-                    pix = page.get_pixmap(clip=union, dpi=CROP_DPI)
+                    pix = page.get_pixmap(clip=union, dpi=native_dpi(images, union, decor_sizes(doc)))
                     g = Image.open(io.BytesIO(pix.tobytes('png'))).convert('RGB')
                     gw, gh = save_webp(g, OUT_PRODUCTS / f'{pid}-variantes.webp', GALLERY_WIDTH)
                     product['gallery'] = [dict(src=f'assets/images/productos/{pid}-variantes.webp', width=gw, height=gh,

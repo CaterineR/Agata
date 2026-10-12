@@ -110,6 +110,18 @@ No se corrigieron porque la regla es no modificar los textos originales. Si quie
 - "Bloom porta **cosmeticos**", "complejo **biologico**", "centella **asiatica**", "ácido **salicilico**", "**Trio** de Rubores" (sin tilde)
 - "Brillo labial - **Bombon**"
 
+### Calidad de las fotografías
+
+El PDF entregado es un **"PDF estándar"** de Canva: las fotos vienen comprimidas a una resolución media de **~90 dpi** (unos 200–380 px por foto). Ninguna está deformada (se verificó la proporción de las 225), pero al mostrarlas más grandes en la web se ven suaves o con "cuadritos" de compresión, sobre todo: Ani-k Rubor en polvo Bonita (52 dpi), Lula Bálsamo desmaquillante (54 dpi), Bioaqua Serum pure skin (61 dpi), Atenea Pigmento Soft Touch y Lip Balm Mask (63 dpi), Schwarzkopf Gel Glued y Tocobo Dúo de limpieza (64 dpi), y las pestañinas Prosa.
+
+- Las fotos se recortan a su resolución nativa (sin ampliarlas ni recomprimirlas dos veces) y el anillo cobrizo se dibuja en vector.
+- **Para que se vean nítidas** hace falta una fuente con más resolución: exportar el catálogo como **"PDF para impresión"** o entregar las fotos originales de los productos. `[INFORMACIÓN PENDIENTE]`
+
+### Errores del catálogo original detectados en las fotos
+
+- **Bloomshell, p. 14 — "Contorno en barra Bloom define"** usa la misma foto que "Rubor en barra Cherry Blossom" (p. 13). Se conserva como está en el catálogo; conviene reemplazarla en Canva. `[INFORMACIÓN PENDIENTE]`
+- **OG, p. 63** — "Rubor mineralizado Daily" y "Rubor matte Daily" usan la misma foto (las fotos de tonos debajo sí son distintas).
+
 ## Fase 2 — Modelo de datos
 
 Cada producto es un objeto en `data/products.json` (ver el README para el formato completo). La tabla de los 225 productos está en [`PRODUCTOS.md`](PRODUCTOS.md).

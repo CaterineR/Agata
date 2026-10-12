@@ -50,7 +50,7 @@ docs/                       Auditoría del catálogo y tabla de productos
 
 Si el catálogo se sigue editando en Canva, lo más fácil es regenerarlo todo:
 
-1. Exportar desde Canva: **Compartir → Descargar → PDF estándar**.
+1. Exportar desde Canva: **Compartir → Descargar → PDF para impresión** (conserva las fotos en alta resolución; el "PDF estándar" las reduce a ~90 dpi y en la web se ven borrosas).
 2. Guardarlo como `catalogo-original/catalogo.pdf`.
 3. Ejecutar:
 
@@ -59,7 +59,7 @@ Si el catálogo se sigue editando en Canva, lo más fácil es regenerarlo todo:
    npm run catalog
    ```
 
-El script lee cada página (marca, sección, nombre, precios y descripciones según la tipografía del catálogo), recorta la foto de cada producto tal como aparece en el círculo y exporta las páginas. Conserva el bloque `brand` de `products.json` y reemplaza `pages` y `products`. Revisa el resumen que imprime y la página en el navegador antes de publicar.
+El script lee cada página (marca, sección, nombre, precios y descripciones según la tipografía del catálogo), recorta la foto de cada producto dentro del círculo a su resolución original (el anillo cobrizo lo dibuja la web en CSS, nítido a cualquier tamaño) y exporta las páginas. Conserva el bloque `brand` de `products.json` y reemplaza `pages` y `products`. Revisa el resumen que imprime y la página en el navegador antes de publicar.
 
 > El script depende del diseño actual (marco de tarjeta, círculo, tipografías). Si cambia la plantilla de Canva, puede necesitar ajustes.
 
@@ -85,10 +85,10 @@ También se puede editar `data/products.json` directamente, sin tocar HTML ni Ja
   "reference": "Referencia",
   "offer": "Texto de la oferta, o true",
   "tags": ["palabras", "extra", "para", "buscar"],
-  "image": "assets/images/productos/montoc-003-2-640.webp",
-  "imageSmall": "assets/images/productos/montoc-003-2-320.webp",
-  "imageWidth": 640,
-  "imageHeight": 640,
+  "image": "assets/images/productos/montoc-003-2.webp",
+  "imageSmall": "Opcional: versión pequeña para las tarjetas",
+  "imageWidth": 315,
+  "imageHeight": 315,
   "imageAlt": "Descripción de la foto",
   "gallery": [{ "src": "assets/images/productos/montoc-003-2-variantes.webp", "width": 720, "height": 400, "alt": "…" }],
   "page": 3
