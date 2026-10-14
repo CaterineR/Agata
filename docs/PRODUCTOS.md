@@ -26,18 +26,18 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `bloomshell-012-1` | Polvos sueltos | Bloomshell | Rostro | — | Tonos: traslúcido y banana: $35.500 | `bloomshell-012-1.webp` | 12 |
 | `bloomshell-012-2` | Polvos sueltos 4 tonos | Bloomshell | Rostro | — | Mini: $29.500 · Normal: $37.500 | `bloomshell-012-2.webp` | 12 |
 | `bloomshell-013-1` | Rubor en barra Cherry Blossom | Bloomshell | Rostro | — | $28.500 | `bloomshell-013-1.webp` | 13 |
-| `bloomshell-013-2` | Trio de Rubores | Bloomshell | Rostro | — | $35.500 | `bloomshell-013-2.webp` | 13 |
-| `bloomshell-014-1` | Contorno en barra Bloom define | Bloomshell | Rostro | — | $28.500 | `bloomshell-014-1.webp` | 14 |
+| `bloomshell-013-2` | Trío de Rubores | Bloomshell | Rostro | — | $35.500 | `bloomshell-013-2.webp` | 13 |
+| `bloomshell-014-1` | Contorno en barra Bloom define | Bloomshell | Rostro | — | $28.500 | `` | 14 |
 | `bloomshell-014-2` | Iluminador Bloom Dazlee | Bloomshell | Rostro | — | $19.000 | `bloomshell-014-2.webp` | 14 |
 | `bloomshell-015-1` | Laminador de cejas | Bloomshell | Cejas y ojos | — | Pequeño: $20.500 · XL: $25.500 | `bloomshell-015-1.webp` | 15 |
 | `bloomshell-015-2` | Paleta de sombras Bloom Vibes | Bloomshell | Cejas y ojos | — | $40.000 | `bloomshell-015-2.webp` | 15 |
 | `bloomshell-016-1` | Llavero Mimosa Tinta + Gloss | Bloomshell | Labios | — | $22.500 | `bloomshell-016-1.webp` | 16 |
-| `bloomshell-016-2` | Brillo labial - Bombon | Bloomshell | Labios | — | $15.500 | `bloomshell-016-2.webp` | 16 |
-| `bloomshell-017-1` | Papel matificante Bloom podwer paper | Bloomshell | Papel matificante | — | $18.500 | `bloomshell-017-1.webp` | 17 |
+| `bloomshell-016-2` | Brillo labial - Bombón | Bloomshell | Labios | — | $15.500 | `bloomshell-016-2.webp` | 16 |
+| `bloomshell-017-1` | Papel matificante Bloom powder paper | Bloomshell | Papel matificante | — | $18.500 | `bloomshell-017-1.webp` | 17 |
 | `bloomshell-017-2` | Papel matificante Bloom Oil Stop | Bloomshell | Papel matificante | — | $23.500 | `bloomshell-017-2.webp` | 17 |
 | `bloomshell-018-1` | Fijador de maquillaje Bloom Fix | Bloomshell | Fijación | — | Mini: $27.500 · Normal: $45.000 | `bloomshell-018-1.webp` | 18 |
 | `bloomshell-019-1` | Bloom Termo | Bloomshell | Accesorios | — | $127.000 | `bloomshell-019-1.webp` | 19 |
-| `bloomshell-019-2` | Bloom porta cosmeticos | Bloomshell | Accesorios | — | $18.500 | `bloomshell-019-2.webp` | 19 |
+| `bloomshell-019-2` | Bloom porta cosméticos | Bloomshell | Accesorios | — | $18.500 | `bloomshell-019-2.webp` | 19 |
 | `bloomshell-020-1` | Kit Kiss Love | Bloomshell | Kit | — | $105.000 | `bloomshell-020-1.webp` | 20 |
 | `bloomshell-021-1` | Beauty Blender Xl | Bloomshell | Accesorios | — | $9.000 | `bloomshell-021-1.webp` | 21 |
 | `bloomshell-021-2` | Bloom Blender Bliss | Bloomshell | Accesorios | — | $13.500 | `bloomshell-021-2.webp` | 21 |
@@ -91,7 +91,7 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `prosa-045-2` | Pestañina con aceite de aguacate | Prosa | Ojos | — | $21.500 | `prosa-045-2.webp` | 45 |
 | `prosa-046-1` | Pestañina red passion | Prosa | Ojos | — | $21.500 | `prosa-046-1.webp` | 46 |
 | `prosa-046-2` | Aceite para pestañas | Prosa | Ojos | — | $21.500 | `prosa-046-2.webp` | 46 |
-| `prosa-047-1` | Tratamiento en mascara para pestañas y cejas | Prosa | Ojos | — | $20.500 | `prosa-047-1.webp` | 47 |
+| `prosa-047-1` | Tratamiento en máscara para pestañas y cejas | Prosa | Ojos | — | $20.500 | `prosa-047-1.webp` | 47 |
 | `samy-048-1` | Polvo suelto | Samy | Rostro | — | Pequeño: $21.500 · Normal: $24.000 | `samy-048-1.webp` | 48 |
 | `samy-048-2` | Rubor en barra Velvet Glam | Samy | Rostro | — | $16.000 | `samy-048-2.webp` | 48 |
 | `samy-049-1` | Rubor Compacto Velvet Glam Samy | Samy | Rostro | — | $25.000 | `samy-049-1.webp` | 49 |
@@ -103,7 +103,7 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `samy-052-1` | Paleta de sombras x3 | Samy | Ojos | — | $12.500 | `samy-052-1.webp` | 52 |
 | `samy-052-2` | Paleta de sombras x9 | Samy | Ojos | — | $26.000 | `samy-052-2.webp` | 52 |
 | `samy-053-1` | Esponja de maquillaje | Samy | Accesorios | — | $13.000 | `samy-053-1.webp` | 53 |
-| `samy-053-2` | Brocha retractil | Samy | Accesorios | — | $25.500 | `samy-053-2.webp` | 53 |
+| `samy-053-2` | Brocha retráctil | Samy | Accesorios | — | $25.500 | `samy-053-2.webp` | 53 |
 | `lula-054-1` | Lápiz delineador de ojos | Lula | Ojos | — | $10.000 | `lula-054-1.webp` | 54 |
 | `lula-055-1` | Aceite para labios con charm | Lula | Labios | — | $18.000 | `lula-055-1.webp` | 55 |
 | `lula-055-2` | Bálsamo de labios | Lula | Labios | — | $12.000 | `lula-055-2.webp` | 55 |
@@ -131,25 +131,25 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `skin-1004-067-2` | Centella Poremizing Deep Cleansing Foam Limpiador 125 ml | Skin 1004 | Cuidado facial | — | $76.500 | `skin-1004-067-2.webp` | 67 |
 | `bioaqua-068-1` | Kit facial de rosas | Bioaqua | Cuidado facial | — | $37.500 | `bioaqua-068-1.webp` | 68 |
 | `bioaqua-068-2` | Kit facial de arroz | Bioaqua | Cuidado facial | — | $37.500 | `bioaqua-068-2.webp` | 68 |
-| `bioaqua-069-1` | Kit facial de centella asiatica | Bioaqua | Cuidado facial | — | $37.500 | `bioaqua-069-1.webp` | 69 |
-| `bioaqua-069-2` | Kit facial de ácido salicilico | Bioaqua | Cuidado facial | — | $37.500 | `bioaqua-069-2.webp` | 69 |
+| `bioaqua-069-1` | Kit facial de centella asiática | Bioaqua | Cuidado facial | — | $37.500 | `bioaqua-069-1.webp` | 69 |
+| `bioaqua-069-2` | Kit facial de ácido salicílico | Bioaqua | Cuidado facial | — | $37.500 | `bioaqua-069-2.webp` | 69 |
 | `bioaqua-070-1` | Kit facial con retinol | Bioaqua | Cuidado facial | — | $37.500 | `bioaqua-070-1.webp` | 70 |
 | `bioaqua-070-2` | Kit facial de ácido hialurónico | Bioaqua | Cuidado facial | — | $37.500 | `bioaqua-070-2.webp` | 70 |
 | `bioaqua-071-1` | Mascarilla facial en velo | Bioaqua | Rostro | — | $2.500 | `bioaqua-071-1.webp` | 71 |
-| `bioaqua-072-1` | Jabón facial - ácido salicilico | Bioaqua | Cuidado facial | — | $10.500 | `bioaqua-072-1.webp` | 72 |
+| `bioaqua-072-1` | Jabón facial - ácido salicílico | Bioaqua | Cuidado facial | — | $10.500 | `bioaqua-072-1.webp` | 72 |
 | `bioaqua-072-2` | Espuma limpiadora de arroz | Bioaqua | Cuidado facial | — | $11.500 | `bioaqua-072-2.webp` | 72 |
 | `bioaqua-073-1` | Tónico de vitamina C | Bioaqua | Cuidado facial | — | $9.500 | `bioaqua-073-1.webp` | 73 |
-| `bioaqua-073-2` | Tónico de centella asiatica | Bioaqua | Cuidado facial | — | $9.500 | `bioaqua-073-2.webp` | 73 |
+| `bioaqua-073-2` | Tónico de centella asiática | Bioaqua | Cuidado facial | — | $9.500 | `bioaqua-073-2.webp` | 73 |
 | `bioaqua-074-1` | Tónico de arroz | Bioaqua | Cuidado facial | — | $9.500 | `bioaqua-074-1.webp` | 74 |
 | `bioaqua-074-2` | Tónico de ácido hialurónico | Bioaqua | Cuidado facial | — | $9.500 | `bioaqua-074-2.webp` | 74 |
 | `bioaqua-075-1` | Serum de vitamina C | Bioaqua | Cuidado facial | — | $12.500 | `bioaqua-075-1.webp` | 75 |
-| `bioaqua-075-2` | Serum de centella asiatica | Bioaqua | Cuidado facial | — | $12.500 | `bioaqua-075-2.webp` | 75 |
+| `bioaqua-075-2` | Serum de centella asiática | Bioaqua | Cuidado facial | — | $12.500 | `bioaqua-075-2.webp` | 75 |
 | `bioaqua-076-1` | Esencia de arroz | Bioaqua | Cuidado facial | — | $12.500 | `bioaqua-076-1.webp` | 76 |
 | `bioaqua-076-2` | Serum de ácido hialurónico | Bioaqua | Cuidado facial | — | $10.500 | `bioaqua-076-2.webp` | 76 |
 | `bioaqua-077-1` | Serum de retinol | Bioaqua | Cuidado facial | — | $10.500 | `bioaqua-077-1.webp` | 77 |
 | `bioaqua-077-2` | Serum pure skin | Bioaqua | Cuidado facial | — | $12.500 | `bioaqua-077-2.webp` | 77 |
 | `bioaqua-078-1` | Crema hidratante con vitamina C | Bioaqua | Cuidado facial | — | $12.500 | `bioaqua-078-1.webp` | 78 |
-| `bioaqua-078-2` | Crema hidratante con centella asiatica | Bioaqua | Cuidado facial | — | $15.500 | `bioaqua-078-2.webp` | 78 |
+| `bioaqua-078-2` | Crema hidratante con centella asiática | Bioaqua | Cuidado facial | — | $15.500 | `bioaqua-078-2.webp` | 78 |
 | `bioaqua-079-1` | Crema hidratante de arroz | Bioaqua | Cuidado facial | — | $15.500 | `bioaqua-079-1.webp` | 79 |
 | `bioaqua-079-2` | Crema hidratante con ácido hialurónico | Bioaqua | Cuidado facial | — | $15.500 | `bioaqua-079-2.webp` | 79 |
 | `garnier-080-1` | Agua micelar todo en 1 Rosada x 400 ml | Garnier | Cuidado facial | — | $29.000 | `garnier-080-1.webp` | 80 |
@@ -176,8 +176,8 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `milagros-090-2` | Tónico revitalizante capilar milagro herbal (tónico con romero) | Milagros | Cuidado capilar | — | $47.500 | `milagros-090-2.webp` | 90 |
 | `milagros-091-1` | Perfume capilar y corporal | Milagros | Cuidado capilar | — | $32.500 | `milagros-091-1.webp` | 91 |
 | `lehit-092-1` | Tratamiento aceite de aguacate x30 gr | Lehit | Cuidado capilar | — | $4.000 | `lehit-092-1.webp` | 92 |
-| `lehit-092-2` | Tratamiento complejo biologico con queratina x30gr | Lehit | Cuidado capilar | — | $4.000 | `lehit-092-2.webp` | 92 |
-| `lehit-093-1` | Tratamiento cebolla y gengibre x30 gr | Lehit | Cuidado capilar | — | $4.000 | `lehit-093-1.webp` | 93 |
+| `lehit-092-2` | Tratamiento complejo biológico con queratina x30gr | Lehit | Cuidado capilar | — | $4.000 | `lehit-092-2.webp` | 92 |
+| `lehit-093-1` | Tratamiento cebolla y jengibre x30 gr | Lehit | Cuidado capilar | — | $4.000 | `lehit-093-1.webp` | 93 |
 | `lehit-093-2` | Tratamiento capullo de gusano de seda x30gr | Lehit | Cuidado capilar | — | $4.000 | `lehit-093-2.webp` | 93 |
 | `leche-pal-pelo-094-1` | Shampoo tradicional x 440 ml | Leche pal pelo | Cuidado capilar | — | $33.500 | `leche-pal-pelo-094-1.webp` | 94 |
 | `leche-pal-pelo-094-2` | Shampoo Protección Plus x 440 ml | Leche pal pelo | Cuidado capilar | — | $33.500 | `leche-pal-pelo-094-2.webp` | 94 |
@@ -198,7 +198,7 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `leche-pal-pelo-102-1` | Termoprotector protección plus x 440 ml | Leche pal pelo | Cuidado capilar | — | $33.500 | `leche-pal-pelo-102-1.webp` | 102 |
 | `leche-pal-pelo-102-2` | Termoprotector rizos y ondas x 440 ml | Leche pal pelo | Cuidado capilar | — | $33.500 | `leche-pal-pelo-102-2.webp` | 102 |
 | `leche-pal-pelo-103-1` | Gelatina slime definidora x 600 ml | Leche pal pelo | Cuidado capilar | — | $45.500 | `leche-pal-pelo-103-1.webp` | 103 |
-| `leche-pal-pelo-103-2` | Definir de rizos y ondas x 440 ml | Leche pal pelo | Cuidado capilar | — | $40.000 | `leche-pal-pelo-103-2.webp` | 103 |
+| `leche-pal-pelo-103-2` | Definidor de rizos y ondas x 440 ml | Leche pal pelo | Cuidado capilar | — | $40.000 | `leche-pal-pelo-103-2.webp` | 103 |
 | `leche-pal-pelo-104-1` | Tratamiento capilar reconstructor instantáneo x 30 ml | Leche pal pelo | Cuidado capilar | — | $3.500 | `leche-pal-pelo-104-1.webp` | 104 |
 | `leche-pal-pelo-104-2` | Termoprotector tradicional x 30 ml | Leche pal pelo | Cuidado capilar | — | $4.500 | `leche-pal-pelo-104-2.webp` | 104 |
 | `ole-105-1` | Shampoo protección y reparación x 500 ml | Olé | Cuidado capilar | — | $37.500 | `ole-105-1.webp` | 105 |
@@ -225,7 +225,7 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `nivea-115-2` | Desodorante dama Invisible Black & White x 50ml | Nivea | — | — | $15.000 | `nivea-115-2.webp` | 115 |
 | `nivea-116-1` | Lip care - 24 horas de humectación | Nivea | Labios | — | $20.000 | `nivea-116-1.webp` | 116 |
 | `chap-stick-117-1` | Protector labial | Chap Stick | Labios | — | $15.500 | `chap-stick-117-1.webp` | 117 |
-| `fantiluna-118-1` | Mantaquilla corportal x 220 ml | Fantiluna | — | — | $24.000 | `fantiluna-118-1.webp` | 118 |
+| `fantiluna-118-1` | Mantequilla corporal x 220 ml | Fantiluna | — | — | $24.000 | `fantiluna-118-1.webp` | 118 |
 | `fantiluna-118-2` | Exfoliante corporal x 220ml | Fantiluna | — | — | $23.000 | `fantiluna-118-2.webp` | 118 |
 | `fantiluna-119-1` | Splash corporal x 250 ml | Fantiluna | — | — | $24.000 | `fantiluna-119-1.webp` | 119 |
 | `fantiluna-119-2` | Splash corporal x 105 ml | Fantiluna | — | — | $15.500 | `fantiluna-119-2.webp` | 119 |

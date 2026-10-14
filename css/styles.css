@@ -271,6 +271,10 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
   image-rendering: auto;
 }
 .is-fallback { object-fit: scale-down !important; opacity: 0.6; }
+.photo-pending {
+  display: grid; place-items: center; width: 100%; height: 100%; border-radius: 50%;
+  background: var(--color-disc); color: var(--color-section); font-size: 0.85rem; font-weight: 600; text-align: center;
+}
 .card-body { display: flex; flex-direction: column; align-items: center; gap: var(--space-2); width: 100%; flex: 1; }
 .card-title { font-size: 0.95rem; font-weight: 600; line-height: 1.3; }
 .card-meta { font-size: 0.85rem; color: var(--color-text-muted); }

@@ -1885,20 +1885,20 @@
     },
     {
       "id": "bloomshell-013-2",
-      "name": "Trio de Rubores",
+      "name": "Trío de Rubores",
       "brand": "Bloomshell",
       "category": "Rostro",
       "price": 35500,
       "image": "assets/images/productos/bloomshell-013-2.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Trio de Rubores de Bloomshell, fotografía del catálogo",
+      "imageAlt": "Trío de Rubores de Bloomshell, fotografía del catálogo",
       "gallery": [
         {
           "src": "assets/images/productos/bloomshell-013-2-variantes.webp",
           "width": 302,
           "height": 245,
-          "alt": "Trio de Rubores: tonos y presentaciones según el catálogo"
+          "alt": "Trío de Rubores: tonos y presentaciones según el catálogo"
         }
       ],
       "page": 13
@@ -1909,10 +1909,6 @@
       "brand": "Bloomshell",
       "category": "Rostro",
       "price": 28500,
-      "image": "assets/images/productos/bloomshell-014-1.webp",
-      "imageWidth": 288,
-      "imageHeight": 288,
-      "imageAlt": "Contorno en barra Bloom define de Bloomshell, fotografía del catálogo",
       "gallery": [
         {
           "src": "assets/images/productos/bloomshell-014-1-variantes.webp",
@@ -1921,7 +1917,8 @@
           "alt": "Contorno en barra Bloom define: tonos y presentaciones según el catálogo"
         }
       ],
-      "page": 14
+      "page": 14,
+      "imagePending": true
     },
     {
       "id": "bloomshell-014-2",
@@ -1983,26 +1980,26 @@
     },
     {
       "id": "bloomshell-016-2",
-      "name": "Brillo labial - Bombon",
+      "name": "Brillo labial - Bombón",
       "brand": "Bloomshell",
       "category": "Labios",
       "price": 15500,
       "image": "assets/images/productos/bloomshell-016-2.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Brillo labial - Bombon de Bloomshell, fotografía del catálogo",
+      "imageAlt": "Brillo labial - Bombón de Bloomshell, fotografía del catálogo",
       "page": 16
     },
     {
       "id": "bloomshell-017-1",
-      "name": "Papel matificante Bloom podwer paper",
+      "name": "Papel matificante Bloom powder paper",
       "brand": "Bloomshell",
       "category": "Papel matificante",
       "price": 18500,
       "image": "assets/images/productos/bloomshell-017-1.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Papel matificante Bloom podwer paper de Bloomshell, fotografía del catálogo",
+      "imageAlt": "Papel matificante Bloom powder paper de Bloomshell, fotografía del catálogo",
       "page": 17
     },
     {
@@ -2053,14 +2050,14 @@
     },
     {
       "id": "bloomshell-019-2",
-      "name": "Bloom porta cosmeticos",
+      "name": "Bloom porta cosméticos",
       "brand": "Bloomshell",
       "category": "Accesorios",
       "price": 18500,
       "image": "assets/images/productos/bloomshell-019-2.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Bloom porta cosmeticos de Bloomshell, fotografía del catálogo",
+      "imageAlt": "Bloom porta cosméticos de Bloomshell, fotografía del catálogo",
       "page": 19
     },
     {
@@ -2903,14 +2900,14 @@
     },
     {
       "id": "prosa-047-1",
-      "name": "Tratamiento en mascara para pestañas y cejas",
+      "name": "Tratamiento en máscara para pestañas y cejas",
       "brand": "Prosa",
       "category": "Ojos",
       "price": 20500,
       "image": "assets/images/productos/prosa-047-1.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Tratamiento en mascara para pestañas y cejas de Prosa, fotografía del catálogo",
+      "imageAlt": "Tratamiento en máscara para pestañas y cejas de Prosa, fotografía del catálogo",
       "page": 47
     },
     {
@@ -3140,14 +3137,14 @@
     },
     {
       "id": "samy-053-2",
-      "name": "Brocha retractil",
+      "name": "Brocha retráctil",
       "brand": "Samy",
       "category": "Accesorios",
       "price": 25500,
       "image": "assets/images/productos/samy-053-2.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Brocha retractil de Samy, fotografía del catálogo",
+      "imageAlt": "Brocha retráctil de Samy, fotografía del catálogo",
       "page": 53
     },
     {
@@ -3574,28 +3571,28 @@
     },
     {
       "id": "bioaqua-069-1",
-      "name": "Kit facial de centella asiatica",
+      "name": "Kit facial de centella asiática",
       "brand": "Bioaqua",
       "category": "Cuidado facial",
       "price": 37500,
-      "description": "Incluye: limpiador facial, tónico, sérum, loción, crema hidratante y contorno de ojos.\nNecesidad: Acne",
+      "description": "Incluye: limpiador facial, tónico, sérum, loción, crema hidratante y contorno de ojos.\nNecesidad: Acné",
       "image": "assets/images/productos/bioaqua-069-1.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Kit facial de centella asiatica de Bioaqua, fotografía del catálogo",
+      "imageAlt": "Kit facial de centella asiática de Bioaqua, fotografía del catálogo",
       "page": 69
     },
     {
       "id": "bioaqua-069-2",
-      "name": "Kit facial de ácido salicilico",
+      "name": "Kit facial de ácido salicílico",
       "brand": "Bioaqua",
       "category": "Cuidado facial",
       "price": 37500,
-      "description": "Incluye: limpiador, sérum, crema hidratante, mascarilla en velo y gel.\nNecesidad: Acne y manchas",
+      "description": "Incluye: limpiador, sérum, crema hidratante, mascarilla en velo y gel.\nNecesidad: Acné y manchas",
       "image": "assets/images/productos/bioaqua-069-2.webp",
       "imageWidth": 300,
       "imageHeight": 300,
-      "imageAlt": "Kit facial de ácido salicilico de Bioaqua, fotografía del catálogo",
+      "imageAlt": "Kit facial de ácido salicílico de Bioaqua, fotografía del catálogo",
       "page": 69
     },
     {
@@ -3639,14 +3636,14 @@
     },
     {
       "id": "bioaqua-072-1",
-      "name": "Jabón facial - ácido salicilico",
+      "name": "Jabón facial - ácido salicílico",
       "brand": "Bioaqua",
       "category": "Cuidado facial",
       "price": 10500,
       "image": "assets/images/productos/bioaqua-072-1.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Jabón facial - ácido salicilico de Bioaqua, fotografía del catálogo",
+      "imageAlt": "Jabón facial - ácido salicílico de Bioaqua, fotografía del catálogo",
       "page": 72
     },
     {
@@ -3675,14 +3672,14 @@
     },
     {
       "id": "bioaqua-073-2",
-      "name": "Tónico de centella asiatica",
+      "name": "Tónico de centella asiática",
       "brand": "Bioaqua",
       "category": "Cuidado facial",
       "price": 9500,
       "image": "assets/images/productos/bioaqua-073-2.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Tónico de centella asiatica de Bioaqua, fotografía del catálogo",
+      "imageAlt": "Tónico de centella asiática de Bioaqua, fotografía del catálogo",
       "page": 73
     },
     {
@@ -3723,14 +3720,14 @@
     },
     {
       "id": "bioaqua-075-2",
-      "name": "Serum de centella asiatica",
+      "name": "Serum de centella asiática",
       "brand": "Bioaqua",
       "category": "Cuidado facial",
       "price": 12500,
       "image": "assets/images/productos/bioaqua-075-2.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Serum de centella asiatica de Bioaqua, fotografía del catálogo",
+      "imageAlt": "Serum de centella asiática de Bioaqua, fotografía del catálogo",
       "page": 75
     },
     {
@@ -3795,14 +3792,14 @@
     },
     {
       "id": "bioaqua-078-2",
-      "name": "Crema hidratante con centella asiatica",
+      "name": "Crema hidratante con centella asiática",
       "brand": "Bioaqua",
       "category": "Cuidado facial",
       "price": 15500,
       "image": "assets/images/productos/bioaqua-078-2.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Crema hidratante con centella asiatica de Bioaqua, fotografía del catálogo",
+      "imageAlt": "Crema hidratante con centella asiática de Bioaqua, fotografía del catálogo",
       "page": 78
     },
     {
@@ -4152,7 +4149,7 @@
     },
     {
       "id": "lehit-092-2",
-      "name": "Tratamiento complejo biologico con queratina x30gr",
+      "name": "Tratamiento complejo biológico con queratina x30gr",
       "brand": "Lehit",
       "category": "Cuidado capilar",
       "price": 4000,
@@ -4160,12 +4157,12 @@
       "image": "assets/images/productos/lehit-092-2.webp",
       "imageWidth": 339,
       "imageHeight": 339,
-      "imageAlt": "Tratamiento complejo biologico con queratina x30gr de Lehit, fotografía del catálogo",
+      "imageAlt": "Tratamiento complejo biológico con queratina x30gr de Lehit, fotografía del catálogo",
       "page": 92
     },
     {
       "id": "lehit-093-1",
-      "name": "Tratamiento cebolla y gengibre x30 gr",
+      "name": "Tratamiento cebolla y jengibre x30 gr",
       "brand": "Lehit",
       "category": "Cuidado capilar",
       "price": 4000,
@@ -4173,7 +4170,7 @@
       "image": "assets/images/productos/lehit-093-1.webp",
       "imageWidth": 288,
       "imageHeight": 288,
-      "imageAlt": "Tratamiento cebolla y gengibre x30 gr de Lehit, fotografía del catálogo",
+      "imageAlt": "Tratamiento cebolla y jengibre x30 gr de Lehit, fotografía del catálogo",
       "page": 93
     },
     {
@@ -4438,7 +4435,7 @@
     },
     {
       "id": "leche-pal-pelo-103-2",
-      "name": "Definir de rizos y ondas x 440 ml",
+      "name": "Definidor de rizos y ondas x 440 ml",
       "brand": "Leche pal pelo",
       "category": "Cuidado capilar",
       "price": 40000,
@@ -4446,7 +4443,7 @@
       "image": "assets/images/productos/leche-pal-pelo-103-2.webp",
       "imageWidth": 291,
       "imageHeight": 291,
-      "imageAlt": "Definir de rizos y ondas x 440 ml de Leche pal pelo, fotografía del catálogo",
+      "imageAlt": "Definidor de rizos y ondas x 440 ml de Leche pal pelo, fotografía del catálogo",
       "page": 103
     },
     {
@@ -4786,20 +4783,20 @@
     },
     {
       "id": "fantiluna-118-1",
-      "name": "Mantaquilla corportal x 220 ml",
+      "name": "Mantequilla corporal x 220 ml",
       "brand": "Fantiluna",
       "price": 24000,
       "presentation": "220 ml",
       "image": "assets/images/productos/fantiluna-118-1.webp",
       "imageWidth": 345,
       "imageHeight": 345,
-      "imageAlt": "Mantaquilla corportal x 220 ml de Fantiluna, fotografía del catálogo",
+      "imageAlt": "Mantequilla corporal x 220 ml de Fantiluna, fotografía del catálogo",
       "gallery": [
         {
           "src": "assets/images/productos/fantiluna-118-1-variantes.webp",
           "width": 616,
           "height": 291,
-          "alt": "Mantaquilla corportal x 220 ml: tonos y presentaciones según el catálogo"
+          "alt": "Mantequilla corporal x 220 ml: tonos y presentaciones según el catálogo"
         }
       ],
       "page": 118

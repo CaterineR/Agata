@@ -48,6 +48,35 @@ LABEL_TITLES = {10: 'Indicada para', 51: 'Opciones', 91: 'Aromas'}
 # Correcciones manuales verificadas contra las páginas renderizadas.
 OVERRIDES = {}
 
+# Erratas del catálogo original corregidas a pedido de Ágata Beauty (ver docs/AUDITORIA.md).
+# Se aplican a nombres y descripciones; las palabras se comparan completas.
+TEXT_FIXES = {
+    'gengibre': 'jengibre',
+    'Mantaquilla corportal': 'Mantequilla corporal',
+    'podwer': 'powder',
+    'Definir de rizos': 'Definidor de rizos',
+    'biologico': 'biológico',
+    'asiatica': 'asiática',
+    'salicilico': 'salicílico',
+    'Trio de': 'Trío de',
+    'cosmeticos': 'cosméticos',
+    'Bombon': 'Bombón',
+    'Acne': 'Acné',
+    'mascara para': 'máscara para',
+    'retractil': 'retráctil',
+}
+
+# Productos cuya foto en el catálogo es de otro producto: se muestran como "foto pendiente".
+PHOTO_PENDING = {
+    'bloomshell-014-1',   # "Contorno en barra Bloom define" lleva la foto de "Rubor en barra Cherry Blossom" (p. 13)
+}
+
+
+def fix_text(text):
+    for wrong, right in TEXT_FIXES.items():
+        text = re.sub(rf'(?<!\w){re.escape(wrong)}(?!\w)', right, text)
+    return text
+
 
 def slug(text):
     text = unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode()
@@ -277,6 +306,7 @@ def main():
             rings.sort(key=lambda im: center(im['bbox'])[0] if wide else center(im['bbox'])[1])
             ring = pymupdf.Rect(rings[0]['bbox']) if rings else None
 
+            name = fix_text(name)
             product = dict(id=pid, name=name, brand=brand)
             if section:
                 product['category'] = section
@@ -290,11 +320,13 @@ def main():
             if m:
                 product['presentation'] = f"{m.group(1)} {m.group(2).lower()}"
             if desc:
-                product['description'] = join_description(desc)
+                product['description'] = fix_text(join_description(desc))
             if labels:
                 product['details'] = {LABEL_TITLES.get(pno, 'Etiquetas'): ', '.join(labels)}
 
-            if ring:
+            if pid in PHOTO_PENDING:
+                product['imagePending'] = True
+            elif ring:
                 img = circle_crop(page, ring, native_dpi(images, ring, decor_sizes(doc)))
                 iw, ih = save_webp(img, OUT_PRODUCTS / f'{pid}.webp', img.width)
                 product['image'] = f'assets/images/productos/{pid}.webp'

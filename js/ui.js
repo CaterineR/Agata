@@ -52,6 +52,12 @@ function presentationIfNew(product) {
 
 /** Imagen con lazy loading, dimensiones fijas, srcset y fallback si no carga. */
 function productImage(product, { large = false } = {}) {
+  // Foto equivocada en el catálogo original: se muestra un aviso en vez de una foto que no corresponde.
+  if (product.imagePending) {
+    return el('div', { class: 'photo-pending', role: 'img', 'aria-label': `${product.name}: foto pendiente` }, [
+      el('span', { text: 'Foto pendiente' }),
+    ]);
+  }
   const width = product.imageWidth ?? DEFAULT_IMAGE_SIZE.width;
   const height = product.imageHeight ?? DEFAULT_IMAGE_SIZE.height;
   const src = (large ? product.image : product.imageSmall ?? product.image) || FALLBACK_IMAGE;

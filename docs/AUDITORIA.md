@@ -99,16 +99,25 @@ Cuidado capilar (57) · Rostro (39) · Cuidado facial (37) · Ojos (18) · Labio
 | Las páginas 63 (OG) muestran la misma foto para dos rubores | Se respeta: cada uno usa la foto que tiene en el catálogo |
 | La página 71 (Bioaqua, mascarilla en velo) tiene otro diseño | El script reconoce también ese marco |
 
-### Textos que se conservaron tal cual (posibles erratas para revisar)
+### Erratas corregidas a pedido de Ágata Beauty
 
-No se corrigieron porque la regla es no modificar los textos originales. Si quieres corregirlos, hazlo en Canva y regenera, o edita `data/products.json`:
+El catálogo de Canva tenía estas erratas. Se corrigieron **solo en la web** (lista `TEXT_FIXES` en `scripts/extract-catalog.py`, que se aplica también al regenerar). Conviene corregirlas también en Canva:
 
-- "Tratamiento cebolla y **gengibre** x30 gr" (el empaque dice *jengibre*)
-- "**Mantaquilla corportal** x 220 ml" (Fantiluna)
-- "Papel matificante Bloom **podwer** paper"
-- "**Definir** de rizos y ondas x 440 ml" (Leche pal pelo)
-- "Bloom porta **cosmeticos**", "complejo **biologico**", "centella **asiatica**", "ácido **salicilico**", "**Trio** de Rubores" (sin tilde)
-- "Brillo labial - **Bombon**"
+| En el catálogo | En la web |
+| --- | --- |
+| Tratamiento cebolla y **gengibre** x30 gr | jengibre |
+| **Mantaquilla corportal** x 220 ml | Mantequilla corporal |
+| Papel matificante Bloom **podwer** paper | powder |
+| **Definir** de rizos y ondas x 440 ml | Definidor |
+| complejo **biologico** | biológico |
+| centella **asiatica** | asiática |
+| ácido **salicilico** | salicílico |
+| **Trio** de Rubores | Trío |
+| Bloom porta **cosmeticos** | cosméticos |
+| Brillo labial - **Bombon** | Bombón |
+| Necesidad: **Acne** | Acné |
+| Tratamiento en **mascara** para pestañas | máscara |
+| Brocha **retractil** | retráctil |
 
 ### Calidad de las fotografías
 
@@ -119,7 +128,7 @@ El PDF entregado es un **"PDF estándar"** de Canva: las fotos vienen comprimida
 
 ### Errores del catálogo original detectados en las fotos
 
-- **Bloomshell, p. 14 — "Contorno en barra Bloom define"** usa la misma foto que "Rubor en barra Cherry Blossom" (p. 13). Se conserva como está en el catálogo; conviene reemplazarla en Canva. `[INFORMACIÓN PENDIENTE]`
+- **Bloomshell, p. 14 — "Contorno en barra Bloom define"** usa la misma foto que "Rubor en barra Cherry Blossom" (p. 13). En la web se muestra **"Foto pendiente"** (lista `PHOTO_PENDING` del script) hasta tener la foto correcta. `[INFORMACIÓN PENDIENTE]`
 - **OG, p. 63** — "Rubor mineralizado Daily" y "Rubor matte Daily" usan la misma foto (las fotos de tonos debajo sí son distintas).
 
 ## Fase 2 — Modelo de datos
