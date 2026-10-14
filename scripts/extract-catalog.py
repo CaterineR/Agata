@@ -66,6 +66,45 @@ TEXT_FIXES = {
     'retractil': 'retráctil',
 }
 
+# Categorías unificadas (pedido de Ágata Beauty): el catálogo repite secciones con nombres distintos
+# ("Ojos", "Cejas", "Cejas y ojos", "Ojos y cejas"…). La sección original se conserva en "section".
+CATEGORY_MAP = {
+    'Rostro': 'Rostro',
+    'Ojos': 'Ojos y cejas', 'Cejas': 'Ojos y cejas', 'Cejas y ojos': 'Ojos y cejas', 'Ojos y cejas': 'Ojos y cejas',
+    'Labios': 'Labios',
+    'Primer': 'Preparación y fijación', 'Fijación': 'Preparación y fijación', 'Papel matificante': 'Preparación y fijación',
+    'Accesorios': 'Brochas, accesorios y kits', 'Herramientas': 'Brochas, accesorios y kits', 'Kit': 'Brochas, accesorios y kits',
+    'Cuidado facial': 'Cuidado facial',
+    'Cuidado capilar': 'Cuidado capilar',
+}
+# Productos cuya página no indica sección (o cuya sección mezcla tipos): categoría asignada por producto.
+CATEGORY_BY_ID = {
+    'girly-022-1': 'Cuidado facial',            # Gel hidratante con aloe vera
+    'girly-022-2': 'Labios',                    # Girly TINT labios y mejillas
+    'girly-022-3': 'Rostro',                    # Polvo suelto
+    'maybelline-023-1': 'Ojos y cejas', 'maybelline-023-2': 'Ojos y cejas', 'maybelline-023-3': 'Ojos y cejas',
+    'ani-k-028-1': 'Ojos y cejas', 'ani-k-028-2': 'Ojos y cejas', 'ani-k-028-3': 'Ojos y cejas',
+    'majikal-029-1': 'Rostro',                  # Polvos sueltos
+    'majikal-029-2': 'Labios',                  # Magic Pen (por confirmar)
+    'majikal-029-3': 'Labios',                  # Shiny Lip Oil
+    'schwarzkopf-065-1': 'Cuidado capilar',     # Gel fijador para el cabello
+    'schwarzkopf-065-2': 'Ojos y cejas',        # Gel para cejas
+    'nude-111-1': 'Cuidado facial',             # Protector solar (por confirmar)
+    'nude-111-2': 'Cuidado corporal',           # Autobronceador
+    'nivea-112-1': 'Cuidado corporal', 'nivea-112-2': 'Cuidado corporal',
+    'nivea-113-1': 'Cuidado corporal', 'nivea-113-2': 'Cuidado corporal',
+    'nivea-114-1': 'Cuidado corporal', 'nivea-114-2': 'Cuidado corporal',
+    'nivea-115-1': 'Cuidado corporal', 'nivea-115-2': 'Cuidado corporal',
+    'fantiluna-118-1': 'Cuidado corporal', 'fantiluna-118-2': 'Cuidado corporal',
+    'fantiluna-119-1': 'Cuidado corporal', 'fantiluna-119-2': 'Cuidado corporal',
+    'fantiluna-120-1': 'Cuidado corporal', 'fantiluna-120-2': 'Cuidado corporal',
+}
+
+
+def categorize(pid, section):
+    return CATEGORY_BY_ID.get(pid) or CATEGORY_MAP.get(section or '')
+
+
 # Productos cuya foto en el catálogo es de otro producto: se muestran como "foto pendiente".
 PHOTO_PENDING = {
     'bloomshell-014-1',   # "Contorno en barra Bloom define" lleva la foto de "Rubor en barra Cherry Blossom" (p. 13)
@@ -308,8 +347,11 @@ def main():
 
             name = fix_text(name)
             product = dict(id=pid, name=name, brand=brand)
+            category = categorize(pid, section)
+            if category:
+                product['category'] = category
             if section:
-                product['category'] = section
+                product['section'] = section
             valid = [p for p in prices if p['price'] is not None]
             if len(valid) == 1 and not valid[0]['label']:
                 product['price'] = valid[0]['price']

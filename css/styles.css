@@ -245,8 +245,19 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
   border: 1px solid var(--color-line); border-radius: var(--radius-btn); background: var(--color-surface);
 }
 
-.categories { margin-bottom: var(--space-3); }
-.categories .chip-row { flex-wrap: nowrap; overflow-x: auto; padding-bottom: var(--space-2); scrollbar-width: thin; }
+.filter-row { margin-bottom: var(--space-3); }
+.filter-title { font-family: var(--font-body); font-size: 0.8rem; font-weight: 600; color: var(--color-section); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--space-2); }
+.filter-row .chip-row { flex-wrap: nowrap; overflow-x: auto; padding-bottom: var(--space-2); scrollbar-width: thin; }
+
+/* Grupos por marca o categoría: título como en las páginas del catálogo */
+.product-group { margin-bottom: var(--space-12); }
+.group-head { display: grid; justify-items: center; gap: var(--space-1); text-align: center; }
+.group-title { font-size: clamp(1.9rem, 6vw, 2.6rem); margin-inline: auto; }
+.group-count { font-size: 0.85rem; color: var(--color-text-muted); }
+.product-group > .divider { margin-block: var(--space-2) var(--space-4); }
+/* El título del grupo ya dice la marca o la categoría: no se repite en cada tarjeta */
+.product-groups[data-group="marca"] .card-brand,
+.product-groups[data-group="categoria"] .card-category { display: none; }
 
 .result-count { color: var(--color-text-muted); font-size: 0.9rem; margin-bottom: var(--space-4); }
 
@@ -263,7 +274,7 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 .product-card:hover { box-shadow: 0 8px 26px rgb(89 37 16 / 0.1); }
 .card-brand { font-size: 1.3rem; line-height: 1.1; margin-inline: auto; }
 .card-category { font-size: 0.8rem; font-weight: 600; color: var(--color-section); }
-.card-media { position: relative; width: 100%; max-width: 220px; aspect-ratio: 1; margin: var(--space-2) auto; }
+.card-media { position: relative; width: 100%; max-width: 200px; aspect-ratio: 1; margin: var(--space-2) auto; }
 /* Círculo del catálogo: anillo vectorial + disco con la foto a su resolución original */
 .card-media, .detail-media { border-radius: 50%; padding: var(--ring-width); background: var(--gradient-ring); }
 .card-media img, .detail-media img {
@@ -312,7 +323,7 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 .dialog-inner { padding: var(--space-4); }
 .back-btn { position: sticky; top: 0; z-index: 1; background: var(--color-bg); width: 100%; justify-content: flex-start; margin-bottom: var(--space-2); }
 .detail { display: grid; gap: var(--space-6); }
-.detail-media { width: 100%; max-width: 420px; aspect-ratio: 1; margin-inline: auto; }
+.detail-media { width: 100%; max-width: 320px; aspect-ratio: 1; margin-inline: auto; }
 .detail-info { display: grid; gap: var(--space-3); align-content: start; }
 .detail-brand { font-size: 2.1rem; line-height: 1; }
 .detail-title { font-size: 1.45rem; font-weight: 600; }

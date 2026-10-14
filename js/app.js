@@ -8,7 +8,7 @@ import {
 } from './filters.js';
 import { readState, writeState } from './state.js';
 import {
-  $, $$, renderGrid, renderCategories, renderBrandOptions, renderDetail,
+  $, $$, renderGrid, renderCategories, renderBrands, renderDetail,
   renderCatalogPages, renderPageIndex, renderProcess, renderContact,
 } from './ui.js';
 
@@ -17,7 +17,8 @@ const DEFAULT_TITLE = document.title;
 const dom = {
   searchForm: $('[data-search-form]'),
   searchInput: $('[data-search-input]'),
-  brandSelect: $('[data-brand-select]'),
+  brands: $('[data-brands]'),
+  groupSelect: $('[data-group-select]'),
   sortSelect: $('[data-sort-select]'),
   categories: $('[data-categories]'),
   count: $('[data-result-count]'),
@@ -76,6 +77,7 @@ function renderProducts() {
   dom.pending.hidden = total > 0;
   $('.toolbar').hidden = total === 0;
   dom.categories.parentElement.hidden = total === 0;
+  dom.brands.parentElement.hidden = total === 0;
 
   if (total === 0) {
     dom.grid.replaceChildren();
@@ -91,8 +93,8 @@ function renderProducts() {
   const visible = sortProducts(filterProducts(searched, state), state.sort);
 
   renderCategories(dom.categories, categories, countByCategory(forCategories), forCategories.length, state.category);
-  renderBrandOptions(dom.brandSelect, brands, countByBrand(forBrands), forBrands.length, state.brand);
-  renderGrid(dom.grid, visible, catalog.brand);
+  renderBrands(dom.brands, brands, countByBrand(forBrands), forBrands.length, state.brand);
+  renderGrid(dom.grid, visible, catalog.brand, state.group);
 
   dom.count.textContent = `Mostrando ${visible.length} de ${total} producto${total === 1 ? '' : 's'}`;
   dom.empty.hidden = visible.length > 0;
@@ -124,6 +126,7 @@ function renderDialog() {
 function syncControls() {
   if (dom.searchInput.value !== state.query) dom.searchInput.value = state.query;
   dom.sortSelect.value = state.sort;
+  dom.groupSelect.value = state.group;
 }
 
 function renderAll() {
@@ -187,7 +190,11 @@ function bindEvents() {
     dom.grid.querySelector('[data-open]')?.focus();
   });
   dom.sortSelect.addEventListener('change', () => update({ sort: dom.sortSelect.value }));
-  dom.brandSelect.addEventListener('change', () => update({ brand: dom.brandSelect.value }, { push: true }));
+  dom.groupSelect.addEventListener('change', () => update({ group: dom.groupSelect.value }));
+  dom.brands.addEventListener('click', (e) => {
+    const chip = e.target.closest('[data-brand]');
+    if (chip) update({ brand: chip.dataset.brand }, { push: true });
+  });
 
   dom.categories.addEventListener('click', (e) => {
     const chip = e.target.closest('[data-category]');

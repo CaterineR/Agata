@@ -108,10 +108,36 @@ function productCard(product, brand) {
   ]);
 }
 
-export function renderGrid(grid, products, brand) {
-  const fragment = document.createDocumentFragment();
-  products.forEach((p) => fragment.append(productCard(p, brand)));
-  grid.replaceChildren(fragment);
+function productList(products, brand) {
+  return el('ul', { class: 'product-grid' }, products.map((p) => productCard(p, brand)));
+}
+
+/**
+ * Pinta los productos, agrupados por marca o por categoría (con título y cantidad, como las páginas
+ * del catálogo) o en una sola lista. Los grupos respetan el orden de aparición en el catálogo.
+ */
+export function renderGrid(container, products, brand, groupBy) {
+  const key = { marca: 'brand', categoria: 'category' }[groupBy];
+  container.dataset.group = key ? groupBy : 'no';
+  if (!key) {
+    container.replaceChildren(productList(products, brand));
+    return;
+  }
+  const groups = new Map();
+  for (const product of products) {
+    const name = product[key] || 'Otros';
+    if (!groups.has(name)) groups.set(name, []);
+    groups.get(name).push(product);
+  }
+  container.replaceChildren(...[...groups].map(([name, items]) =>
+    el('section', { class: 'product-group', 'aria-label': `${name}, ${items.length} producto${items.length === 1 ? '' : 's'}` }, [
+      el('div', { class: 'group-head' }, [
+        el('h3', { class: 'group-title brand-title', text: name }),
+        el('span', { class: 'group-count', text: `${items.length} producto${items.length === 1 ? '' : 's'}` }),
+      ]),
+      el('span', { class: 'divider', 'aria-hidden': 'true' }),
+      productList(items, brand),
+    ])));
 }
 
 /* ---------- Filtros ---------- */
@@ -132,16 +158,20 @@ export function renderCategories(container, categories, counts, total, active) {
   );
 }
 
-export function renderBrandOptions(select, brands, counts, total, active) {
-  select.replaceChildren(
-    el('option', { value: '', text: `Todas las marcas (${total})` }),
-    ...brands.map((b) => el('option', {
-      value: b.slug,
-      text: `${b.name} (${counts.get(b.slug) ?? 0})`,
-      disabled: !counts.get(b.slug) && active !== b.slug,
-    })),
+export function renderBrands(container, brands, counts, total, active) {
+  const chip = (slug, label, count) =>
+    el('button', {
+      type: 'button',
+      class: 'chip',
+      dataset: { brand: slug },
+      'aria-pressed': String(active === slug),
+      disabled: Boolean(slug) && !count && active !== slug,
+    }, [label, el('span', { class: 'chip-count', text: ` (${count})` })]);
+
+  container.replaceChildren(
+    chip('', 'Todas', total),
+    ...brands.map((b) => chip(b.slug, b.name, counts.get(b.slug) ?? 0)),
   );
-  select.value = active;
 }
 
 /* ---------- Detalle ---------- */

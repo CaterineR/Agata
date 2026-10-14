@@ -44,6 +44,7 @@
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#catalogo">Catálogo</a></li>
           <li><a href="#categorias">Categorías</a></li>
+          <li><a href="#marcas">Marcas</a></li>
           <li data-nav-offers hidden><a href="#catalogo" data-offers-link>Ofertas</a></li>
           <li><a href="#como-comprar">Cómo comprar</a></li>
           <li data-nav-contact hidden><a href="#contacto">Contacto</a></li>
@@ -101,9 +102,11 @@
             </label>
 
             <label class="select-field">
-              <span class="visually-hidden">Filtrar por marca</span>
-              <select name="marca" data-brand-select>
-                <option value="">Todas las marcas</option>
+              <span class="visually-hidden">Agrupar productos</span>
+              <select name="agrupar" data-group-select>
+                <option value="marca">Agrupar por marca</option>
+                <option value="categoria">Agrupar por categoría</option>
+                <option value="no">Sin agrupar</option>
               </select>
             </label>
 
@@ -119,14 +122,19 @@
             </label>
           </form>
 
-          <nav class="categories" id="categorias" aria-label="Categorías">
-            <h3 class="visually-hidden">Categorías</h3>
+          <nav class="filter-row categories" id="categorias" aria-labelledby="categorias-title">
+            <h3 class="filter-title" id="categorias-title">Categorías</h3>
             <div class="chip-row" data-categories></div>
+          </nav>
+
+          <nav class="filter-row brands" id="marcas" aria-labelledby="marcas-title">
+            <h3 class="filter-title" id="marcas-title">Marcas</h3>
+            <div class="chip-row" data-brands></div>
           </nav>
 
           <p class="result-count" aria-live="polite" data-result-count></p>
 
-          <ul class="product-grid" data-product-grid></ul>
+          <div class="product-groups" data-product-grid></div>
 
           <div class="empty-state" data-empty hidden>
             <p>No encontramos productos que coincidan con tu búsqueda.</p>

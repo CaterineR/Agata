@@ -12,15 +12,15 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `montoc-004-2` | Rubor líquido radiante Glow Filter | Montoc | Rostro | — | $41.000 | `montoc-004-2.webp` | 4 |
 | `montoc-005-1` | Bronzer Drops Light | Montoc | Rostro | — | $30.500 | `montoc-005-1.webp` | 5 |
 | `montoc-005-2` | Bronzer luminoso en polvo + brocha Hello beach | Montoc | Rostro | — | $15.500 | `montoc-005-2.webp` | 5 |
-| `montoc-006-1` | Paleta Harmony x6 | Montoc | Cejas y ojos | — | $36.500 | `montoc-006-1.webp` | 6 |
-| `montoc-006-2` | Brow Wax Ultra Fijador de cejas | Montoc | Cejas y ojos | — | $26.500 | `montoc-006-2.webp` | 6 |
+| `montoc-006-1` | Paleta Harmony x6 | Montoc | Ojos y cejas | — | $36.500 | `montoc-006-1.webp` | 6 |
+| `montoc-006-2` | Brow Wax Ultra Fijador de cejas | Montoc | Ojos y cejas | — | $26.500 | `montoc-006-2.webp` | 6 |
 | `montoc-007-1` | Lápiz delineador de labios | Montoc | Labios | — | $13.000 | `montoc-007-1.webp` | 7 |
 | `montoc-007-2` | Hidratante de Labios Lippie Balm | Montoc | Labios | — | $15.500 | `montoc-007-2.webp` | 7 |
-| `montoc-008-1` | Fijador de maquillaje Dixy Fix | Montoc | Fijación | — | 10ml: $10.500 · 30ml: $27.500 · 80ml: $39.000 · 200ml: $75.000 | `montoc-008-1.webp` | 8 |
-| `montoc-009-1` | Set de Borlas | Montoc | Herramientas | — | $11.500 | `montoc-009-1.webp` | 9 |
-| `montoc-009-2` | Kit de brochas de maquillaje Fluffy x 10 | Montoc | Herramientas | — | $54.000 | `montoc-009-2.webp` | 9 |
-| `montoc-010-1` | Esponja mini para difuminar maquillaje | Montoc | Herramientas | — | $4.500 | `montoc-010-1.webp` | 10 |
-| `montoc-010-2` | Brocha mini viajera | Montoc | Herramientas | — | $23.000 | `montoc-010-2.webp` | 10 |
+| `montoc-008-1` | Fijador de maquillaje Dixy Fix | Montoc | Preparación y fijación | — | 10ml: $10.500 · 30ml: $27.500 · 80ml: $39.000 · 200ml: $75.000 | `montoc-008-1.webp` | 8 |
+| `montoc-009-1` | Set de Borlas | Montoc | Brochas, accesorios y kits | — | $11.500 | `montoc-009-1.webp` | 9 |
+| `montoc-009-2` | Kit de brochas de maquillaje Fluffy x 10 | Montoc | Brochas, accesorios y kits | — | $54.000 | `montoc-009-2.webp` | 9 |
+| `montoc-010-1` | Esponja mini para difuminar maquillaje | Montoc | Brochas, accesorios y kits | — | $4.500 | `montoc-010-1.webp` | 10 |
+| `montoc-010-2` | Brocha mini viajera | Montoc | Brochas, accesorios y kits | — | $23.000 | `montoc-010-2.webp` | 10 |
 | `bloomshell-011-1` | Base líquida 2 en 1 My foundation | Bloomshell | Rostro | — | $35.000 | `bloomshell-011-1.webp` | 11 |
 | `bloomshell-011-2` | Corrector My concealer | Bloomshell | Rostro | — | 10 ml: $22.500 · Jumbo: $35.000 | `bloomshell-011-2.webp` | 11 |
 | `bloomshell-012-1` | Polvos sueltos | Bloomshell | Rostro | — | Tonos: traslúcido y banana: $35.500 | `bloomshell-012-1.webp` | 12 |
@@ -29,36 +29,36 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `bloomshell-013-2` | Trío de Rubores | Bloomshell | Rostro | — | $35.500 | `bloomshell-013-2.webp` | 13 |
 | `bloomshell-014-1` | Contorno en barra Bloom define | Bloomshell | Rostro | — | $28.500 | `` | 14 |
 | `bloomshell-014-2` | Iluminador Bloom Dazlee | Bloomshell | Rostro | — | $19.000 | `bloomshell-014-2.webp` | 14 |
-| `bloomshell-015-1` | Laminador de cejas | Bloomshell | Cejas y ojos | — | Pequeño: $20.500 · XL: $25.500 | `bloomshell-015-1.webp` | 15 |
-| `bloomshell-015-2` | Paleta de sombras Bloom Vibes | Bloomshell | Cejas y ojos | — | $40.000 | `bloomshell-015-2.webp` | 15 |
+| `bloomshell-015-1` | Laminador de cejas | Bloomshell | Ojos y cejas | — | Pequeño: $20.500 · XL: $25.500 | `bloomshell-015-1.webp` | 15 |
+| `bloomshell-015-2` | Paleta de sombras Bloom Vibes | Bloomshell | Ojos y cejas | — | $40.000 | `bloomshell-015-2.webp` | 15 |
 | `bloomshell-016-1` | Llavero Mimosa Tinta + Gloss | Bloomshell | Labios | — | $22.500 | `bloomshell-016-1.webp` | 16 |
 | `bloomshell-016-2` | Brillo labial - Bombón | Bloomshell | Labios | — | $15.500 | `bloomshell-016-2.webp` | 16 |
-| `bloomshell-017-1` | Papel matificante Bloom powder paper | Bloomshell | Papel matificante | — | $18.500 | `bloomshell-017-1.webp` | 17 |
-| `bloomshell-017-2` | Papel matificante Bloom Oil Stop | Bloomshell | Papel matificante | — | $23.500 | `bloomshell-017-2.webp` | 17 |
-| `bloomshell-018-1` | Fijador de maquillaje Bloom Fix | Bloomshell | Fijación | — | Mini: $27.500 · Normal: $45.000 | `bloomshell-018-1.webp` | 18 |
-| `bloomshell-019-1` | Bloom Termo | Bloomshell | Accesorios | — | $127.000 | `bloomshell-019-1.webp` | 19 |
-| `bloomshell-019-2` | Bloom porta cosméticos | Bloomshell | Accesorios | — | $18.500 | `bloomshell-019-2.webp` | 19 |
-| `bloomshell-020-1` | Kit Kiss Love | Bloomshell | Kit | — | $105.000 | `bloomshell-020-1.webp` | 20 |
-| `bloomshell-021-1` | Beauty Blender Xl | Bloomshell | Accesorios | — | $9.000 | `bloomshell-021-1.webp` | 21 |
-| `bloomshell-021-2` | Bloom Blender Bliss | Bloomshell | Accesorios | — | $13.500 | `bloomshell-021-2.webp` | 21 |
-| `girly-022-1` | Gel hidratante con aloe vera | Girly | — | — | 30 ml: $17.500 · 200 ml: $31.500 | `girly-022-1.webp` | 22 |
-| `girly-022-2` | Girly TINT Labios y mejillas | Girly | — | — | $21.000 | `girly-022-2.webp` | 22 |
-| `girly-022-3` | Polvo suelto | Girly | — | — | 10 gr (translúcido, rosado y banana): $21.500 · 20 gr (rosado): $31.500 | `girly-022-3.webp` | 22 |
-| `maybelline-023-1` | Pestañina Sky High Lavable / A prueba de agua | Maybelline | — | — | $57.000 | `maybelline-023-1.webp` | 23 |
-| `maybelline-023-2` | Pestañina Colossal Lavable / A prueba de agua | Maybelline | — | — | $37.000 | `maybelline-023-2.webp` | 23 |
-| `maybelline-023-3` | Pestañina Surreal Lavable / A prueba de agua | Maybelline | — | — | $56.000 | `maybelline-023-3.webp` | 23 |
+| `bloomshell-017-1` | Papel matificante Bloom powder paper | Bloomshell | Preparación y fijación | — | $18.500 | `bloomshell-017-1.webp` | 17 |
+| `bloomshell-017-2` | Papel matificante Bloom Oil Stop | Bloomshell | Preparación y fijación | — | $23.500 | `bloomshell-017-2.webp` | 17 |
+| `bloomshell-018-1` | Fijador de maquillaje Bloom Fix | Bloomshell | Preparación y fijación | — | Mini: $27.500 · Normal: $45.000 | `bloomshell-018-1.webp` | 18 |
+| `bloomshell-019-1` | Bloom Termo | Bloomshell | Brochas, accesorios y kits | — | $127.000 | `bloomshell-019-1.webp` | 19 |
+| `bloomshell-019-2` | Bloom porta cosméticos | Bloomshell | Brochas, accesorios y kits | — | $18.500 | `bloomshell-019-2.webp` | 19 |
+| `bloomshell-020-1` | Kit Kiss Love | Bloomshell | Brochas, accesorios y kits | — | $105.000 | `bloomshell-020-1.webp` | 20 |
+| `bloomshell-021-1` | Beauty Blender Xl | Bloomshell | Brochas, accesorios y kits | — | $9.000 | `bloomshell-021-1.webp` | 21 |
+| `bloomshell-021-2` | Bloom Blender Bliss | Bloomshell | Brochas, accesorios y kits | — | $13.500 | `bloomshell-021-2.webp` | 21 |
+| `girly-022-1` | Gel hidratante con aloe vera | Girly | Cuidado facial | — | 30 ml: $17.500 · 200 ml: $31.500 | `girly-022-1.webp` | 22 |
+| `girly-022-2` | Girly TINT Labios y mejillas | Girly | Labios | — | $21.000 | `girly-022-2.webp` | 22 |
+| `girly-022-3` | Polvo suelto | Girly | Rostro | — | 10 gr (translúcido, rosado y banana): $21.500 · 20 gr (rosado): $31.500 | `girly-022-3.webp` | 22 |
+| `maybelline-023-1` | Pestañina Sky High Lavable / A prueba de agua | Maybelline | Ojos y cejas | — | $57.000 | `maybelline-023-1.webp` | 23 |
+| `maybelline-023-2` | Pestañina Colossal Lavable / A prueba de agua | Maybelline | Ojos y cejas | — | $37.000 | `maybelline-023-2.webp` | 23 |
+| `maybelline-023-3` | Pestañina Surreal Lavable / A prueba de agua | Maybelline | Ojos y cejas | — | $56.000 | `maybelline-023-3.webp` | 23 |
 | `ani-k-024-1` | 2 en 1: base y corrector | Ani-k | Rostro | — | $41.500 | `ani-k-024-1.webp` | 24 |
 | `ani-k-024-2` | Loose powder Polvos sueltos | Ani-k | Rostro | — | $34.500 | `ani-k-024-2.webp` | 24 |
 | `ani-k-025-1` | Serum Flyshy Blushy | Ani-k | Rostro | — | $25.500 | `ani-k-025-1.webp` | 25 |
 | `ani-k-025-2` | Rubor líquido Bonita | Ani-k | Rostro | — | $25.500 | `ani-k-025-2.webp` | 25 |
 | `ani-k-026-1` | Rubor en polvo Bonita | Ani-k | Rostro | — | $18.500 | `ani-k-026-1.webp` | 26 |
 | `ani-k-027-1` | Lip Gloss | Ani-k | Labios | — | $19.500 | `ani-k-027-1.webp` | 27 |
-| `ani-k-028-1` | Delineador radiante Tono negro | Ani-k | — | — | $20.000 | `ani-k-028-1.webp` | 28 |
-| `ani-k-028-2` | Pestañina eternal lash | Ani-k | — | — | $22.000 | `ani-k-028-2.webp` | 28 |
-| `ani-k-028-3` | Pestañina Brown Paradise - A prueba de agua | Ani-k | — | — | $22.000 | `ani-k-028-3.webp` | 28 |
-| `majikal-029-1` | Polvos sueltos - 4 tonos | Majikal | — | — | Mini Matte: $28.000 · Mini Glowy: $28.000 · Grande Matte: $45.000 · Grande Glowy: $45.000 | `majikal-029-1.webp` | 29 |
-| `majikal-029-2` | Magic Pen | Majikal | — | — | $17.500 | `majikal-029-2.webp` | 29 |
-| `majikal-029-3` | Shiny Lip Oil | Majikal | — | — | $22.000 | `majikal-029-3.webp` | 29 |
+| `ani-k-028-1` | Delineador radiante Tono negro | Ani-k | Ojos y cejas | — | $20.000 | `ani-k-028-1.webp` | 28 |
+| `ani-k-028-2` | Pestañina eternal lash | Ani-k | Ojos y cejas | — | $22.000 | `ani-k-028-2.webp` | 28 |
+| `ani-k-028-3` | Pestañina Brown Paradise - A prueba de agua | Ani-k | Ojos y cejas | — | $22.000 | `ani-k-028-3.webp` | 28 |
+| `majikal-029-1` | Polvos sueltos - 4 tonos | Majikal | Rostro | — | Mini Matte: $28.000 · Mini Glowy: $28.000 · Grande Matte: $45.000 · Grande Glowy: $45.000 | `majikal-029-1.webp` | 29 |
+| `majikal-029-2` | Magic Pen | Majikal | Labios | — | $17.500 | `majikal-029-2.webp` | 29 |
+| `majikal-029-3` | Shiny Lip Oil | Majikal | Labios | — | $22.000 | `majikal-029-3.webp` | 29 |
 | `atenea-030-1` | Base de maquillaje 1ST Scene | Atenea | Rostro | — | 30ml: $48.500 · 50 ml: $63.500 | `atenea-030-1.webp` | 30 |
 | `atenea-030-2` | Serum Tinted 1ST Scene | Atenea | Rostro | — | $63.500 | `atenea-030-2.webp` | 30 |
 | `atenea-031-1` | Polvo en gel matificante Matterpowder | Atenea | Rostro | — | $43.000 | `atenea-031-1.webp` | 31 |
@@ -67,44 +67,44 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `atenea-032-2` | Rubor cremoso en barra | Atenea | Rostro | — | $40.000 | `atenea-032-2.webp` | 32 |
 | `atenea-033-1` | Bronzer cremoso en barra | Atenea | Rostro | — | $40.000 | `atenea-033-1.webp` | 33 |
 | `atenea-033-2` | Iluminador efecto húmedo Sublime | Atenea | Rostro | — | $34.000 | `atenea-033-2.webp` | 33 |
-| `atenea-034-1` | Paleta de sombras 18 tonos - Art Deco | Atenea | Ojos | — | $55.000 | `atenea-034-1.webp` | 34 |
-| `atenea-034-2` | Paleta de sombras Majestic | Atenea | Ojos | — | $89.000 | `atenea-034-2.webp` | 34 |
-| `atenea-035-1` | Paleta de sombras 12 tonos - 1ST SCENE | Atenea | Ojos | — | $60.000 | `atenea-035-1.webp` | 35 |
-| `atenea-035-2` | Paleta de sombras 12 tonos - Rose sublime | Atenea | Ojos | — | $50.000 | `atenea-035-2.webp` | 35 |
+| `atenea-034-1` | Paleta de sombras 18 tonos - Art Deco | Atenea | Ojos y cejas | — | $55.000 | `atenea-034-1.webp` | 34 |
+| `atenea-034-2` | Paleta de sombras Majestic | Atenea | Ojos y cejas | — | $89.000 | `atenea-034-2.webp` | 34 |
+| `atenea-035-1` | Paleta de sombras 12 tonos - 1ST SCENE | Atenea | Ojos y cejas | — | $60.000 | `atenea-035-1.webp` | 35 |
+| `atenea-035-2` | Paleta de sombras 12 tonos - Rose sublime | Atenea | Ojos y cejas | — | $50.000 | `atenea-035-2.webp` | 35 |
 | `atenea-036-1` | Pigmento Soft Touch | Atenea | Ojos y cejas | — | $19.000 | `atenea-036-1.webp` | 36 |
 | `atenea-036-2` | Gel fijador de cejas | Atenea | Ojos y cejas | — | $24.000 | `atenea-036-2.webp` | 36 |
-| `atenea-037-1` | Delineador de cejas | Atenea | Cejas | — | $24.500 | `atenea-037-1.webp` | 37 |
+| `atenea-037-1` | Delineador de cejas | Atenea | Ojos y cejas | — | $24.500 | `atenea-037-1.webp` | 37 |
 | `atenea-038-1` | Lápiz delineador Color pencil | Atenea | Labios | — | $12.000 | `atenea-038-1.webp` | 38 |
 | `atenea-038-2` | Lip Balm Mask | Atenea | Labios | — | $33.000 | `atenea-038-2.webp` | 38 |
-| `atenea-039-1` | Primer Gummy | Atenea | Primer | — | 15 ml: $29.500 · 30ml: $42.500 | `atenea-039-1.webp` | 39 |
-| `atenea-040-1` | Brocha duo Base y productos en crema | Atenea | Accesorios | — | $30.500 | `atenea-040-1.webp` | 40 |
-| `atenea-040-2` | Beauty sponge | Atenea | Accesorios | — | $16.000 | `atenea-040-2.webp` | 40 |
-| `atenea-041-1` | Encrespador Focus | Atenea | Accesorios | — | $9.500 | `atenea-041-1.webp` | 41 |
-| `atenea-041-2` | Mini beauty sponge trio | Atenea | Accesorios | — | $10.000 | `atenea-041-2.webp` | 41 |
-| `prosa-042-1` | Pestañina Profesional Silicon | Prosa | Ojos | — | $21.500 | `prosa-042-1.webp` | 42 |
-| `prosa-042-2` | Pestañina Maxivolumen | Prosa | Ojos | — | $21.500 | `prosa-042-2.webp` | 42 |
-| `prosa-043-1` | Pestañina Microfibra | Prosa | Ojos | — | $21.500 | `prosa-043-1.webp` | 43 |
-| `prosa-043-2` | Pestañina Maxivolumen Silicon | Prosa | Ojos | — | $21.500 | `prosa-043-2.webp` | 43 |
-| `prosa-044-1` | Pestañina Profesional Silicon - Café | Prosa | Ojos | — | $21.500 | `prosa-044-1.webp` | 44 |
-| `prosa-044-2` | Pestañina Sensual Love | Prosa | Ojos | — | $21.500 | `prosa-044-2.webp` | 44 |
-| `prosa-045-1` | Pestañina con aceite de mamey | Prosa | Ojos | — | $21.500 | `prosa-045-1.webp` | 45 |
-| `prosa-045-2` | Pestañina con aceite de aguacate | Prosa | Ojos | — | $21.500 | `prosa-045-2.webp` | 45 |
-| `prosa-046-1` | Pestañina red passion | Prosa | Ojos | — | $21.500 | `prosa-046-1.webp` | 46 |
-| `prosa-046-2` | Aceite para pestañas | Prosa | Ojos | — | $21.500 | `prosa-046-2.webp` | 46 |
-| `prosa-047-1` | Tratamiento en máscara para pestañas y cejas | Prosa | Ojos | — | $20.500 | `prosa-047-1.webp` | 47 |
+| `atenea-039-1` | Primer Gummy | Atenea | Preparación y fijación | — | 15 ml: $29.500 · 30ml: $42.500 | `atenea-039-1.webp` | 39 |
+| `atenea-040-1` | Brocha duo Base y productos en crema | Atenea | Brochas, accesorios y kits | — | $30.500 | `atenea-040-1.webp` | 40 |
+| `atenea-040-2` | Beauty sponge | Atenea | Brochas, accesorios y kits | — | $16.000 | `atenea-040-2.webp` | 40 |
+| `atenea-041-1` | Encrespador Focus | Atenea | Brochas, accesorios y kits | — | $9.500 | `atenea-041-1.webp` | 41 |
+| `atenea-041-2` | Mini beauty sponge trio | Atenea | Brochas, accesorios y kits | — | $10.000 | `atenea-041-2.webp` | 41 |
+| `prosa-042-1` | Pestañina Profesional Silicon | Prosa | Ojos y cejas | — | $21.500 | `prosa-042-1.webp` | 42 |
+| `prosa-042-2` | Pestañina Maxivolumen | Prosa | Ojos y cejas | — | $21.500 | `prosa-042-2.webp` | 42 |
+| `prosa-043-1` | Pestañina Microfibra | Prosa | Ojos y cejas | — | $21.500 | `prosa-043-1.webp` | 43 |
+| `prosa-043-2` | Pestañina Maxivolumen Silicon | Prosa | Ojos y cejas | — | $21.500 | `prosa-043-2.webp` | 43 |
+| `prosa-044-1` | Pestañina Profesional Silicon - Café | Prosa | Ojos y cejas | — | $21.500 | `prosa-044-1.webp` | 44 |
+| `prosa-044-2` | Pestañina Sensual Love | Prosa | Ojos y cejas | — | $21.500 | `prosa-044-2.webp` | 44 |
+| `prosa-045-1` | Pestañina con aceite de mamey | Prosa | Ojos y cejas | — | $21.500 | `prosa-045-1.webp` | 45 |
+| `prosa-045-2` | Pestañina con aceite de aguacate | Prosa | Ojos y cejas | — | $21.500 | `prosa-045-2.webp` | 45 |
+| `prosa-046-1` | Pestañina red passion | Prosa | Ojos y cejas | — | $21.500 | `prosa-046-1.webp` | 46 |
+| `prosa-046-2` | Aceite para pestañas | Prosa | Ojos y cejas | — | $21.500 | `prosa-046-2.webp` | 46 |
+| `prosa-047-1` | Tratamiento en máscara para pestañas y cejas | Prosa | Ojos y cejas | — | $20.500 | `prosa-047-1.webp` | 47 |
 | `samy-048-1` | Polvo suelto | Samy | Rostro | — | Pequeño: $21.500 · Normal: $24.000 | `samy-048-1.webp` | 48 |
 | `samy-048-2` | Rubor en barra Velvet Glam | Samy | Rostro | — | $16.000 | `samy-048-2.webp` | 48 |
 | `samy-049-1` | Rubor Compacto Velvet Glam Samy | Samy | Rostro | — | $25.000 | `samy-049-1.webp` | 49 |
 | `samy-049-2` | Rubor 2 en 1 Sunset Glam Samy | Samy | Rostro | — | $28.000 | `samy-049-2.webp` | 49 |
 | `samy-050-1` | Tinta en crema Lip Blush | Samy | Rostro | — | $21.500 | `samy-050-1.webp` | 50 |
 | `samy-050-2` | Contorno en barra Velvet Glam | Samy | Rostro | — | $16.000 | `samy-050-2.webp` | 50 |
-| `samy-051-1` | Betún de cejas | Samy | Cejas | — | $10.500 | `samy-051-1.webp` | 51 |
-| `samy-051-2` | Kit para cejas | Samy | Cejas | — | $25.000 | `samy-051-2.webp` | 51 |
-| `samy-052-1` | Paleta de sombras x3 | Samy | Ojos | — | $12.500 | `samy-052-1.webp` | 52 |
-| `samy-052-2` | Paleta de sombras x9 | Samy | Ojos | — | $26.000 | `samy-052-2.webp` | 52 |
-| `samy-053-1` | Esponja de maquillaje | Samy | Accesorios | — | $13.000 | `samy-053-1.webp` | 53 |
-| `samy-053-2` | Brocha retráctil | Samy | Accesorios | — | $25.500 | `samy-053-2.webp` | 53 |
-| `lula-054-1` | Lápiz delineador de ojos | Lula | Ojos | — | $10.000 | `lula-054-1.webp` | 54 |
+| `samy-051-1` | Betún de cejas | Samy | Ojos y cejas | — | $10.500 | `samy-051-1.webp` | 51 |
+| `samy-051-2` | Kit para cejas | Samy | Ojos y cejas | — | $25.000 | `samy-051-2.webp` | 51 |
+| `samy-052-1` | Paleta de sombras x3 | Samy | Ojos y cejas | — | $12.500 | `samy-052-1.webp` | 52 |
+| `samy-052-2` | Paleta de sombras x9 | Samy | Ojos y cejas | — | $26.000 | `samy-052-2.webp` | 52 |
+| `samy-053-1` | Esponja de maquillaje | Samy | Brochas, accesorios y kits | — | $13.000 | `samy-053-1.webp` | 53 |
+| `samy-053-2` | Brocha retráctil | Samy | Brochas, accesorios y kits | — | $25.500 | `samy-053-2.webp` | 53 |
+| `lula-054-1` | Lápiz delineador de ojos | Lula | Ojos y cejas | — | $10.000 | `lula-054-1.webp` | 54 |
 | `lula-055-1` | Aceite para labios con charm | Lula | Labios | — | $18.000 | `lula-055-1.webp` | 55 |
 | `lula-055-2` | Bálsamo de labios | Lula | Labios | — | $12.000 | `lula-055-2.webp` | 55 |
 | `lula-056-1` | Bálsamo desmaquillante | Lula | Cuidado facial | — | $18.000 | `lula-056-1.webp` | 56 |
@@ -114,8 +114,8 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `lula-058-1` | Hidratante facial de noche con ceramidas | Lula | Cuidado facial | — | $27.500 | `lula-058-1.webp` | 58 |
 | `lula-058-2` | Hidratante facial de día con ceramidas | Lula | Cuidado facial | — | $23.500 | `lula-058-2.webp` | 58 |
 | `lula-059-1` | Tónico de Rosas | Lula | Cuidado facial | — | $23.500 | `lula-059-1.webp` | 59 |
-| `lula-060-1` | Kit de brochas Marshmallow X 13pcs | Lula | Accesorios | — | $95.500 | `lula-060-1.webp` | 60 |
-| `lula-060-2` | Kit de brochas Uva X 14pcs | Lula | Accesorios | — | $118.500 | `lula-060-2.webp` | 60 |
+| `lula-060-1` | Kit de brochas Marshmallow X 13pcs | Lula | Brochas, accesorios y kits | — | $95.500 | `lula-060-1.webp` | 60 |
+| `lula-060-2` | Kit de brochas Uva X 14pcs | Lula | Brochas, accesorios y kits | — | $118.500 | `lula-060-2.webp` | 60 |
 | `raquel-061-1` | Polvo suelto traslúcido mate minerals con avena y trigo | Raquel | Rostro | — | $18.500 | `raquel-061-1.webp` | 61 |
 | `og-062-1` | Base Aqua smooth | OG | Rostro | — | $38.500 | `og-062-1.webp` | 62 |
 | `og-062-2` | Base Stay matte | OG | Rostro | — | $45.500 | `og-062-2.webp` | 62 |
@@ -123,8 +123,8 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `og-063-2` | Rubor matte Daily | OG | Rostro | — | $39.500 | `og-063-2.webp` | 63 |
 | `og-064-1` | Gloss and lip Dreamy | OG | Labios | — | $41.500 | `og-064-1.webp` | 64 |
 | `og-064-2` | Brillo labial Yess Queen | OG | Labios | — | $31.500 | `og-064-2.webp` | 64 |
-| `schwarzkopf-065-1` | Gel fijador Glued Got2b amarillo | Schwarzkopf | Gel fijador | — | 35 gr: $23.500 | `schwarzkopf-065-1.webp` | 65 |
-| `schwarzkopf-065-2` | Gel para cejas Got2b amarillo | Schwarzkopf | Gel fijador | — | 16 ml: $62.500 | `schwarzkopf-065-2.webp` | 65 |
+| `schwarzkopf-065-1` | Gel fijador Glued Got2b amarillo | Schwarzkopf | Cuidado capilar | — | 35 gr: $23.500 | `schwarzkopf-065-1.webp` | 65 |
+| `schwarzkopf-065-2` | Gel para cejas Got2b amarillo | Schwarzkopf | Ojos y cejas | — | 16 ml: $62.500 | `schwarzkopf-065-2.webp` | 65 |
 | `tocobo-066-1` | Bloqueador en barra Cotton Soft SPF50 | Tocobo | Cuidado facial | — | Normal: $84.500 · Mini: $50.500 | `tocobo-066-1.webp` | 66 |
 | `tocobo-066-2` | Dúo de limpieza | Tocobo | Cuidado facial | — | $133.500 | `tocobo-066-2.webp` | 66 |
 | `skin-1004-067-1` | Madagascar Centella Ampoule Foam Limpiador 125 ml | Skin 1004 | Cuidado facial | — | $79.500 | `skin-1004-067-1.webp` | 67 |
@@ -213,21 +213,21 @@ Referencia: el catálogo no incluye códigos de referencia `[INFORMACIÓN PENDIE
 | `ole-109-2` | Termoprotector desenredante | Olé | Cuidado capilar | — | $41.500 | `ole-109-2.webp` | 109 |
 | `ole-110-1` | Óleo capilar de uchuva Hidratante de puntas | Olé | Cuidado capilar | — | $32.000 | `ole-110-1.webp` | 110 |
 | `ole-110-2` | Spray antihumedad - antifrizz | Olé | Cuidado capilar | — | $35.500 | `ole-110-2.webp` | 110 |
-| `nude-111-1` | Protector solar Spf30 40 ml | Nude | — | — | $20.000 | `nude-111-1.webp` | 111 |
-| `nude-111-2` | Autobronceador Doypack 200ml | Nude | — | — | $36.000 | `nude-111-2.webp` | 111 |
-| `nivea-112-1` | Crema hidratante | Nivea | — | — | 30 gr: $16.500 · 60 gr: $25.500 · 150 gr: $34.000 | `nivea-112-1.webp` | 112 |
-| `nivea-112-2` | Crema corporal Nivea reafirmante Q10 + vitamina C x 1000 Ml | Nivea | — | — | $64.000 | `nivea-112-2.webp` | 112 |
-| `nivea-113-1` | Crema Nivea Corporal Reafirmante Q10 Creatina x 400 ml | Nivea | — | — | $42.500 | `nivea-113-1.webp` | 113 |
-| `nivea-113-2` | Crema corporal Nivea milk nutritiva - Piel Seca x 400 ml | Nivea | — | — | $35.000 | `nivea-113-2.webp` | 113 |
-| `nivea-114-1` | Desodorante aclarado natural Classic Touch x 50ml | Nivea | — | — | $13.000 | `nivea-114-1.webp` | 114 |
-| `nivea-114-2` | Desodorante tono natural mujer satín spray x 150 ml | Nivea | — | — | $24.500 | `nivea-114-2.webp` | 114 |
-| `nivea-115-1` | Desodorante men Invisible Black & White x 50ml | Nivea | — | — | $15.000 | `nivea-115-1.webp` | 115 |
-| `nivea-115-2` | Desodorante dama Invisible Black & White x 50ml | Nivea | — | — | $15.000 | `nivea-115-2.webp` | 115 |
+| `nude-111-1` | Protector solar Spf30 40 ml | Nude | Cuidado facial | — | $20.000 | `nude-111-1.webp` | 111 |
+| `nude-111-2` | Autobronceador Doypack 200ml | Nude | Cuidado corporal | — | $36.000 | `nude-111-2.webp` | 111 |
+| `nivea-112-1` | Crema hidratante | Nivea | Cuidado corporal | — | 30 gr: $16.500 · 60 gr: $25.500 · 150 gr: $34.000 | `nivea-112-1.webp` | 112 |
+| `nivea-112-2` | Crema corporal Nivea reafirmante Q10 + vitamina C x 1000 Ml | Nivea | Cuidado corporal | — | $64.000 | `nivea-112-2.webp` | 112 |
+| `nivea-113-1` | Crema Nivea Corporal Reafirmante Q10 Creatina x 400 ml | Nivea | Cuidado corporal | — | $42.500 | `nivea-113-1.webp` | 113 |
+| `nivea-113-2` | Crema corporal Nivea milk nutritiva - Piel Seca x 400 ml | Nivea | Cuidado corporal | — | $35.000 | `nivea-113-2.webp` | 113 |
+| `nivea-114-1` | Desodorante aclarado natural Classic Touch x 50ml | Nivea | Cuidado corporal | — | $13.000 | `nivea-114-1.webp` | 114 |
+| `nivea-114-2` | Desodorante tono natural mujer satín spray x 150 ml | Nivea | Cuidado corporal | — | $24.500 | `nivea-114-2.webp` | 114 |
+| `nivea-115-1` | Desodorante men Invisible Black & White x 50ml | Nivea | Cuidado corporal | — | $15.000 | `nivea-115-1.webp` | 115 |
+| `nivea-115-2` | Desodorante dama Invisible Black & White x 50ml | Nivea | Cuidado corporal | — | $15.000 | `nivea-115-2.webp` | 115 |
 | `nivea-116-1` | Lip care - 24 horas de humectación | Nivea | Labios | — | $20.000 | `nivea-116-1.webp` | 116 |
 | `chap-stick-117-1` | Protector labial | Chap Stick | Labios | — | $15.500 | `chap-stick-117-1.webp` | 117 |
-| `fantiluna-118-1` | Mantequilla corporal x 220 ml | Fantiluna | — | — | $24.000 | `fantiluna-118-1.webp` | 118 |
-| `fantiluna-118-2` | Exfoliante corporal x 220ml | Fantiluna | — | — | $23.000 | `fantiluna-118-2.webp` | 118 |
-| `fantiluna-119-1` | Splash corporal x 250 ml | Fantiluna | — | — | $24.000 | `fantiluna-119-1.webp` | 119 |
-| `fantiluna-119-2` | Splash corporal x 105 ml | Fantiluna | — | — | $15.500 | `fantiluna-119-2.webp` | 119 |
-| `fantiluna-120-1` | Iluminador corporal x 160 ml | Fantiluna | — | — | $24.000 | `fantiluna-120-1.webp` | 120 |
-| `fantiluna-120-2` | Crema corporal | Fantiluna | — | — | 120 ml: $15.500 · 280 ml: $24.000 | `fantiluna-120-2.webp` | 120 |
+| `fantiluna-118-1` | Mantequilla corporal x 220 ml | Fantiluna | Cuidado corporal | — | $24.000 | `fantiluna-118-1.webp` | 118 |
+| `fantiluna-118-2` | Exfoliante corporal x 220ml | Fantiluna | Cuidado corporal | — | $23.000 | `fantiluna-118-2.webp` | 118 |
+| `fantiluna-119-1` | Splash corporal x 250 ml | Fantiluna | Cuidado corporal | — | $24.000 | `fantiluna-119-1.webp` | 119 |
+| `fantiluna-119-2` | Splash corporal x 105 ml | Fantiluna | Cuidado corporal | — | $15.500 | `fantiluna-119-2.webp` | 119 |
+| `fantiluna-120-1` | Iluminador corporal x 160 ml | Fantiluna | Cuidado corporal | — | $24.000 | `fantiluna-120-1.webp` | 120 |
+| `fantiluna-120-2` | Crema corporal | Fantiluna | Cuidado corporal | — | 120 ml: $15.500 · 280 ml: $24.000 | `fantiluna-120-2.webp` | 120 |

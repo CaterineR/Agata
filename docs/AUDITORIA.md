@@ -29,13 +29,24 @@ El enlace `https://canva.link/agatabeautycatalogo` no se pudo abrir desde el ent
 | Olé | 12 | Raquel, Chap Stick | 1 c/u |
 | Prosa | 11 | | |
 
-### Categorías (secciones reales del catálogo)
+### Categorías
 
-El catálogo organiza cada página por **marca** y, debajo, por **sección**. En la web se usan las dos como filtros, sin inventar agrupaciones nuevas:
+El catálogo organiza cada página por **marca** y, debajo, por **sección**, pero repite secciones con nombres distintos ("Ojos", "Cejas", "Cejas y ojos", "Ojos y cejas"…) y 28 productos no tienen sección. A pedido de Ágata Beauty se unificaron en **8 categorías** (`CATEGORY_MAP` y `CATEGORY_BY_ID` en `scripts/extract-catalog.py`; la sección original se conserva en el campo `section`):
 
-Cuidado capilar (57) · Rostro (39) · Cuidado facial (37) · Ojos (18) · Labios (13) · Accesorios (12) · Cejas y ojos (4) · Herramientas (4) · Cejas (3) · Fijación (2) · Papel matificante (2) · Ojos y cejas (2) · Gel fijador (2) · Kit (1) · Primer (1)
+| Categoría en la web | Productos | Secciones del catálogo que agrupa |
+| --- | ---: | --- |
+| Rostro | 41 | Rostro + Girly Polvo suelto, Majikal Polvos sueltos |
+| Ojos y cejas | 34 | Ojos, Cejas, Cejas y ojos, Ojos y cejas + pestañinas Maybelline y Ani-k, Gel para cejas Got2b |
+| Labios | 16 | Labios + Girly TINT, Majikal Magic Pen y Shiny Lip Oil |
+| Preparación y fijación | 5 | Primer, Fijación, Papel matificante |
+| Brochas, accesorios y kits | 17 | Accesorios, Herramientas, Kit |
+| Cuidado facial | 39 | Cuidado facial + Girly Gel hidratante, Nude Protector solar |
+| Cuidado capilar | 58 | Cuidado capilar + Gel fijador Got2b Glued |
+| Cuidado corporal | 15 | Nivea (cremas y desodorantes), Fantiluna, Nude Autobronceador |
 
-"labios" aparece en minúscula en las páginas 116–117; se unificó con "Labios".
+Por confirmar: **Majikal Magic Pen** (se ubicó en Labios) y **Nude Protector solar** (en Cuidado facial).
+
+Además, el catálogo web permite filtrar por las **25 marcas** y ver los productos **agrupados por marca** (como en el catálogo), **por categoría** o sin agrupar.
 
 ### Datos disponibles por producto
 
@@ -43,7 +54,7 @@ Cuidado capilar (57) · Rostro (39) · Cuidado facial (37) · Ojos (18) · Labio
 | --- | --- |
 | Nombre | 225 / 225 (texto tal cual, incluida la presentación cuando el catálogo la escribe en el nombre: "x 450 ml") |
 | Marca | 225 / 225 |
-| Sección / categoría | 197 / 225 (ver pendientes) |
+| Sección / categoría | 197 / 225 en el catálogo; 225 / 225 en la web (categorías unificadas) |
 | Precio | 225 / 225 |
 | Precios por tamaño, tono o versión | 19 productos (p. ej. "5gr: $27.000 · 10gr: $33.000 · 30gr: $62.000") |
 | Descripción | 14 productos (kits, Gotas Mágicas, mascarillas en velo, kits de brochas…) |
@@ -137,9 +148,7 @@ Cada producto es un objeto en `data/products.json` (ver el README para el format
 
 ## Información pendiente `[INFORMACIÓN PENDIENTE]`
 
-1. **Sección de 28 productos.** Estas páginas no indican sección, así que no se les asignó ninguna. Aparecen en "Todas" y en el filtro por marca:
-   - Girly (p. 22), Maybelline (p. 23), Ani-k (p. 28), Majikal (p. 29), Nude (p. 111), Nivea (p. 112–115), Fantiluna (p. 118–120).
-   - Si quieres, dime qué sección corresponde (p. ej. "Ojos" para las pestañinas o "Cuidado corporal" para Fantiluna) y la agrego.
+1. **Categorías por confirmar:** Majikal Magic Pen (Labios) y Nude Protector solar (Cuidado facial). Los 28 productos sin sección en el catálogo ya tienen categoría (ver la tabla de Categorías).
 2. **Indicativo del WhatsApp.** El catálogo muestra 3135496268. El enlace usa **+57** (Colombia), que se deduce del número y de los precios en pesos. Confírmalo.
 3. **Referencias.** El proceso de compra dice "Guarda las referencias de los productos", pero el catálogo no tiene códigos. El mensaje de WhatsApp envía el nombre y la marca.
 4. **Dominio** definitivo para `og:url` y para compartir enlaces.

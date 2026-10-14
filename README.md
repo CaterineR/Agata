@@ -100,7 +100,7 @@ Reglas:
 - **Solo `id` y `name` son obligatorios.** Los demás campos se escriben únicamente si el dato existe en el catálogo. Un campo ausente no se muestra; **no inventes datos**.
 - `id` debe ser único y no cambiar (se usa en los enlaces: `?producto=montoc-003-2`).
 - `price` es un número sin puntos ni símbolo y sirve para ordenar. Si hay `variants` (tamaños, tonos…), `price` es el menor y la tarjeta muestra la lista completa.
-- **Marcas y categorías se generan automáticamente** a partir de `brand` y `category`, en el orden en que aparecen en el catálogo.
+- **Marcas y categorías se generan automáticamente** a partir de `brand` y `category`, en el orden en que aparecen en el catálogo. Al regenerar desde el PDF, la categoría sale de `CATEGORY_MAP` / `CATEGORY_BY_ID` en el script (la sección original queda en `section`).
 - `offer` marca el producto como oferta. El menú "Ofertas" solo aparece si existe al menos uno (el catálogo 2026 no tiene ofertas).
 - `page` enlaza el producto con su página en la vista catálogo (botón "Ver en el catálogo original").
 - Para fotos nuevas: `npm run images -- carpeta-con-fotos assets/images/productos` (solo redimensiona y comprime; no altera el producto).
@@ -118,7 +118,8 @@ Tipografías: el logo usa **Cormorant Garamond** y **Dancing Script**, las misma
 ## Funcionalidades
 
 - Búsqueda instantánea por nombre, marca, categoría, presentación, descripción, variantes y etiquetas. No distingue tildes ni mayúsculas, y con varias palabras exige todas ("shampoo niños").
-- Filtro por marca (con contador) y por categoría (con contador). Cada contador tiene en cuenta los demás filtros.
+- Filtros por **categoría** (8 categorías unificadas) y por **marca** (25), con contador. Cada contador tiene en cuenta los demás filtros.
+- Productos **agrupados por marca** (como en el catálogo), **por categoría** o sin agrupar.
 - Orden: catálogo, nombre A-Z / Z-A, precio menor/mayor.
 - Contador "Mostrando X de Y productos" y estado sin resultados con "Limpiar búsqueda".
 - Detalle en ventana modal (pantalla completa en celular) con enlace propio, fotos de tonos, aviso de disponibilidad, cierre con Esc y "← Volver al catálogo".
