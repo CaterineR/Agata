@@ -6,7 +6,7 @@ Versión web del **Catálogo 2026 de Ágata Beauty** (*Makeup • Skincare • S
 - Vista productos (búsqueda) y **vista catálogo** (las páginas originales, con índice por marca).
 - Botón **"Comprar / Solicitar producto"** que abre WhatsApp (3135496268) con el nombre del producto, siguiendo el proceso de compra del catálogo.
 
-El diagnóstico completo y los datos pendientes están en [`docs/AUDITORIA.md`](docs/AUDITORIA.md). La lista de productos está en [`docs/PRODUCTOS.md`](docs/PRODUCTOS.md).
+El diagnóstico completo y los datos pendientes están en [`docs/AUDITORIA.md`](docs/AUDITORIA.md). Para reemplazar las fotos por versiones en alta resolución, sigue [`docs/INSTRUCCIONES-FOTOS.md`](docs/INSTRUCCIONES-FOTOS.md). La lista de productos está en [`docs/PRODUCTOS.md`](docs/PRODUCTOS.md).
 
 ## Ejecutar en local
 
